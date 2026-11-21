@@ -5,7 +5,7 @@ Traductions du mod **Dimensional Chaos** et du livre de quêtes du modpack **Dim
 
 ## Aider à traduire (pas besoin de GitHub)
 
-1. Ouvrez la page Crowdin du projet : **lien bientôt disponible**.
+1. Ouvrez la page Crowdin du projet : **https://crowdin.com/project/dimensional-chaos**
 2. Connectez-vous (compte Crowdin gratuit, ou avec Google, GitHub, etc.) et choisissez votre langue.
 3. Traduisez les textes directement dans le navigateur. Vous voyez le texte anglais à côté de chaque ligne.
 
@@ -39,7 +39,7 @@ En proposant une traduction, vous acceptez qu'elle soit distribuée avec Dimensi
 
 ## Help translate (no GitHub needed)
 
-1. Open the project's Crowdin page: **link coming soon**.
+1. Open the project's Crowdin page: **https://crowdin.com/project/dimensional-chaos**
 2. Sign in (free Crowdin account, or with Google, GitHub…) and pick your language.
 3. Translate in your browser, with the English text next to each line.
 
