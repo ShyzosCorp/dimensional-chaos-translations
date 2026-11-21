@@ -1,0 +1,65 @@
+# Crowdin GitHub integration: English sources go to Crowdin, translations come back here in a pull request.
+# Minecraft language files are lower case (fr_fr.json, pt_br.json): each Crowdin language is mapped to its game code.
+files:
+  - source: /source/mod/en_us.json
+    translation: /translations/mod/%locale_with_underscore%.json
+    languages_mapping:
+      locale_with_underscore:
+        fr: fr_fr
+        pl: pl_pl
+        zh-CN: zh_cn
+        zh-TW: zh_tw
+        de: de_de
+        es-ES: es_es
+        es-MX: es_mx
+        it: it_it
+        pt-BR: pt_br
+        pt-PT: pt_pt
+        ru: ru_ru
+        uk: uk_ua
+        ja: ja_jp
+        ko: ko_kr
+        tr: tr_tr
+        nl: nl_nl
+        cs: cs_cz
+        sv-SE: sv_se
+        hu: hu_hu
+        ro: ro_ro
+        vi: vi_vn
+        id: id_id
+        th: th_th
+        ar: ar_sa
+        da: da_dk
+        fi: fi_fi
+        no: no_no
+  - source: /source/quests/en_us.json
+    translation: /translations/quests/%locale_with_underscore%.json
+    languages_mapping:
+      locale_with_underscore:
+        fr: fr_fr
+        pl: pl_pl
+        zh-CN: zh_cn
+        zh-TW: zh_tw
+        de: de_de
+        es-ES: es_es
+        es-MX: es_mx
+        it: it_it
+        pt-BR: pt_br
+        pt-PT: pt_pt
+        ru: ru_ru
+        uk: uk_ua
+        ja: ja_jp
+        ko: ko_kr
+        tr: tr_tr
+        nl: nl_nl
+        cs: cs_cz
+        sv-SE: sv_se
+        hu: hu_hu
+        ro: ro_ro
+        vi: vi_vn
+        id: id_id
+        th: th_th
+        ar: ar_sa
+        da: da_dk
+        fi: fi_fi
+        no: no_no
