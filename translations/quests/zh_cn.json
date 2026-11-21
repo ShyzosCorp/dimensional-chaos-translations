@@ -1,823 +1,850 @@
 {
-  "book.subtitle": "在虚空中生存。勇闯轮转传送门。扩张你的岛屿。",
-  "book.title": "维度混沌",
-  "chapter.automation.subtitle": "让你的岛屿自动化",
-  "chapter.automation.title": "第 3 章 - 自动化",
+  "book.subtitle": "Survive the void. Brave the rotating gateway. Grow your island.",
+  "book.title": "Dimensional Chaos",
+  "chapter.automation.description": [
+    "Expand your Skyblock island with automated resource processing, redstone contraptions, and storage."
+  ],
+  "chapter.automation.subtitle": "Automate your island",
+  "chapter.automation.title": "Chapter 3 - Automation",
   "chapter.dimensional_explorer.description": [
-    "每次扩张都会让传送门通往更严酷的维度：暮色森林、天境、下界、幽暗地底、采矿世界，最后是末地。你的章节所需的维度会优先出现。"
+    "Each island expansion opens harsher realms to your gateway: Twilight Forest, Aether, Nether, Undergarden, the Mining World, then the End. A realm your chapter needs comes first."
   ],
-  "chapter.dimensional_explorer.subtitle": "征服险恶的维度",
-  "chapter.dimensional_explorer.title": "第 5 章 - 维度探险家",
-  "chapter.dimensional_mastery.subtitle": "轮转维度中最艰巨的考验",
-  "chapter.dimensional_mastery.title": "第 6 章 - 维度精通",
+  "chapter.dimensional_explorer.subtitle": "Conquer hostile realms",
+  "chapter.dimensional_explorer.title": "Chapter 5 - Dimensional Explorer",
+  "chapter.dimensional_mastery.description": [
+    "Complete high-stakes expeditions, defeat the bosses of the dimensions, and claim mastery over Dimensional Chaos."
+  ],
+  "chapter.dimensional_mastery.subtitle": "The hardest trials of the rotating realms",
+  "chapter.dimensional_mastery.title": "Chapter 6 - Dimensional Mastery",
   "chapter.island_tier_1.description": [
-    "顶部的主要目标用于扩张岛屿。下方的圆形任务是可选的奖励。",
-    "提示：置顶一个任务，让它留在屏幕上。",
-    "预计用时：15-30 分钟。"
+    "Main objectives (top row) expand your island. Round quests below are optional bonuses.",
+    "Tip: pin a quest in the quest book to keep it on screen.",
+    "Expected time: 15-30 min."
   ],
-  "chapter.island_tier_1.subtitle": "收集最初的资源，制作工具，并从一次维度远征中归来。",
-  "chapter.island_tier_1.title": "扩张 1 — 初次尝试",
+  "chapter.island_tier_1.subtitle": "Gather your first resources, craft tools and come back from a dimensional expedition.",
+  "chapter.island_tier_1.title": "Expansion 1 - First Steps",
   "chapter.island_tier_2.description": [
-    "你的传送门现在也能通往天境。每次扩张后，远征都会变得更危险一些。",
-    "预计用时：30-45 分钟。"
+    "Your gateway now also reaches the Aether. Expeditions get a little more dangerous with each island expansion.",
+    "Expected time: 30-45 min."
   ],
-  "chapter.island_tier_2.subtitle": "铁制工具、一面盾牌，以及一次真正的暮色森林之旅。",
-  "chapter.island_tier_2.title": "扩张 2 — 幸存者之岛",
+  "chapter.island_tier_2.subtitle": "Iron tools, a shield and a proper visit to the Twilight Forest.",
+  "chapter.island_tier_2.title": "Expansion 2 - Survivor's Island",
   "chapter.island_tier_3.description": [
-    "现在传送门可以通往下界了。带上盾牌、食物和一个桶。",
-    "预计用时：45-60 分钟。"
+    "From now on the gateway can open to the Nether. Bring a shield, food and a bucket.",
+    "Expected time: 45-60 min."
   ],
-  "chapter.island_tier_3.subtitle": "下界向你的传送门敞开，还有你最初的魔法精华。",
-  "chapter.island_tier_3.title": "扩张 3 — 神秘之根",
+  "chapter.island_tier_3.subtitle": "The Nether opens to your gateway, and your first magical essences.",
+  "chapter.island_tier_3.title": "Expansion 3 - Mystical Roots",
   "chapter.island_tier_4.description": [
-    "机械动力的机器依靠旋转运作：水车带动传动杆和齿轮，为机器供能。",
-    "预计用时：60-90 分钟。"
+    "Create machines run on rotation: a water wheel turns shafts and cogwheels that power your machines.",
+    "Expected time: 60-90 min."
   ],
-  "chapter.island_tier_4.subtitle": "机械动力：旋转、第一台辊压机和最初的机器。",
-  "chapter.island_tier_4.title": "扩张 4 — 齿轮与蒸汽",
+  "chapter.island_tier_4.subtitle": "Create: rotation, the first press and the first machines.",
+  "chapter.island_tier_4.title": "Expansion 4 - Gears & Steam",
   "chapter.island_tier_5.description": [
-    "魔法模组带来法术和附魔机器。单方块进入奥术阶段：青金石和奥术木。",
-    "你的传送门现在可以通往幽暗地底，只要本章还需要它，就会优先前往。",
-    "预计用时：60-90 分钟。"
+    "Magic mods add spells and enchanting machines. The OneBlock turns arcane: lapis and archwood.",
+    "Your gateway now reaches the Undergarden and goes there first while this chapter needs it.",
+    "Expected time: 60-90 min."
   ],
-  "chapter.island_tier_5.subtitle": "魔法：新生魔艺、铁魔法和幽暗地底的深处。",
-  "chapter.island_tier_5.title": "扩张 5 — 奥术研习",
+  "chapter.island_tier_5.subtitle": "Magic: Ars Nouveau, Iron's Spells and the depths of the Undergarden.",
+  "chapter.island_tier_5.title": "Expansion 5 - Arcane Studies",
   "chapter.island_tier_6.description": [
-    "电力机器让矿石产量翻倍，并让你的岛屿自动化。单方块的工业阶段带来锇和铀矿。",
-    "你的传送门现在可以通往采矿世界，只要本章还需要它，就会优先前往。",
-    "预计用时：90-120 分钟。"
+    "Electric machines double your ore output and automate your island. The OneBlock's Industry phase brings osmium and uraninite.",
+    "Your gateway now reaches the Mining World and goes there first while this chapter needs it.",
+    "Expected time: 90-120 min."
   ],
-  "chapter.island_tier_6.subtitle": "通用机械的机器、Powah 的能量和采矿世界。",
-  "chapter.island_tier_6.title": "扩张 6 — 工业虚空",
+  "chapter.island_tier_6.subtitle": "Mekanism machines, Powah energy and the Mining World.",
+  "chapter.island_tier_6.title": "Expansion 6 - Industrial Void",
   "chapter.island_tier_7.description": [
-    "末地在等级 6 开放。只要本章还需要，你的传送门会优先前往末地，然后是下界。",
-    "远征现在很危险：请备好盔甲、食物和碎片。",
-    "预计用时：2-3 小时。"
+    "The End opens at island tier 6. Your gateway goes first to the End, then to the Nether, while this chapter needs them.",
+    "Expeditions are dangerous now: prepare armour, food and fragments.",
+    "Expected time: 2-3 h."
   ],
-  "chapter.island_tier_7.subtitle": "更严酷的维度：末地、下界要塞和凋灵骷髅头颅。",
-  "chapter.island_tier_7.title": "扩张 7 — 裂隙彼端",
+  "chapter.island_tier_7.subtitle": "Harsher realms: the End, the Nether's fortresses and the Wither's skulls.",
+  "chapter.island_tier_7.title": "Expansion 7 - Beyond the Fracture",
   "chapter.island_tier_8.description": [
-    "注意：请远离你的岛屿召唤凋灵。它会摧毁方块。",
-    "预计用时：2-4 小时。"
+    "Warning: summon the Wither far from your island. It destroys blocks.",
+    "Expected time: 2-4 h."
   ],
-  "chapter.island_tier_8.subtitle": "凋灵、信标和精英机器。",
-  "chapter.island_tier_8.title": "扩张 8 — 维度精通",
+  "chapter.island_tier_8.subtitle": "The Wither, a beacon and elite machines.",
+  "chapter.island_tier_8.title": "Expansion 8 - Dimensional Mastery",
   "chapter.lost_beyond_the_portal.description": [
-    "在外停留超过你的 15 分钟，归途传送门就会崩塌。这时附近会出现一道维度裂隙：修复它才能回家。"
+    "Stay out longer than your 15 minutes and your return gateway collapses. A Dimensional Fracture then appears nearby: repair it to come home."
   ],
-  "chapter.lost_beyond_the_portal.subtitle": "被困后如何生存",
-  "chapter.lost_beyond_the_portal.title": "附章 - 迷失于传送门彼端",
-  "chapter.magic_and_technology.subtitle": "为更远的远征做准备",
-  "chapter.magic_and_technology.title": "第 4 章 - 魔法与科技",
+  "chapter.lost_beyond_the_portal.subtitle": "Survive being trapped",
+  "chapter.lost_beyond_the_portal.title": "Side chapter - Lost Beyond the Portal",
+  "chapter.magic_and_technology.description": [
+    "Prepare high-tier enchantments, potions, and emergency rift kits to survive progressive dimensional danger."
+  ],
+  "chapter.magic_and_technology.subtitle": "Prepare for deeper expeditions",
+  "chapter.magic_and_technology.title": "Chapter 4 - Magic and Technology",
   "chapter.the_dimensional_gateway.description": [
-    "每个周期，传送门都会转向另一个维度，并在白天保持开启。你的归途传送门在你本人进入后保持开启 15 分钟；在同一周期内回家后再出发，会使用你剩余的时间。",
-    "面板会显示目的地，以及你的归途传送门还能开启多久。"
+    "Every cycle the gateway turns to another realm and stays open during the day. Your return portal stays open 15 minutes from your own entry; coming back and leaving again in the same cycle uses the time you have left.",
+    "The panel on screen shows the cycle, where your gateway leads and how long your return portal stays open."
   ],
-  "chapter.the_dimensional_gateway.subtitle": "勇闯轮转传送门",
-  "chapter.the_dimensional_gateway.title": "第 2 章 - 维度传送门",
+  "chapter.the_dimensional_gateway.subtitle": "Brave the rotating gateway",
+  "chapter.the_dimensional_gateway.title": "Chapter 2 - The Dimensional Gateway",
   "chapter.the_void.description": [
-    "你的岛屿从虚空上的一个单方块开始。不断破坏它：它会以新方块的形式重生，掉落物会直接进入你的背包。",
-    "背包满了？物品会进入单方块储备（6 格）：空手潜行 + 右键点击单方块。两者都满时，物品会掉到地上。"
+    "Your island starts as a single OneBlock above the void. Break it again and again: it comes back with new blocks, and its drops go straight into your inventory.",
+    "Inventory full? Drops go to the 6-slot OneBlock reserve: sneak + right-click the OneBlock with an empty hand. When both are full, drops fall to the ground."
   ],
-  "chapter.the_void.subtitle": "在你的单方块岛屿上生存",
-  "chapter.the_void.title": "第 1 章 - 虚空",
-  "group.expeditions.title": "剧情：远征",
-  "group.island_expansion.title": "岛屿扩张",
-  "group.mastery.title": "剧情：精通",
-  "group.skyblock_core.title": "剧情：虚空与传送门",
+  "chapter.the_void.subtitle": "Survival on your OneBlock island",
+  "chapter.the_void.title": "Chapter 1 - The Void",
+  "group.expeditions.title": "Story: Expeditions",
+  "group.island_expansion.title": "Island Expansion",
+  "group.mastery.title": "Story: Mastery",
+  "group.skyblock_core.title": "Story: the Void & the Gateway",
   "quest.automation/auto_crafter.description": [
-    "合成器收到红石信号时会自动合成。"
+    "A Crafter crafts by itself when powered by redstone."
   ],
-  "quest.automation/auto_crafter.title": "自动合成",
+  "quest.automation/auto_crafter.subtitle": "Build a Redstone Crafter",
+  "quest.automation/auto_crafter.title": "Automated Crafting",
   "quest.automation/iron_production.description": [
-    "熔炼单方块产出的铁，并制作一个漏斗，开始自动化。"
+    "Smelt iron from the OneBlock and craft a hopper to start automating."
   ],
-  "quest.automation/iron_production.title": "冶炼与漏斗",
+  "quest.automation/iron_production.subtitle": "Automate collection and smelting",
+  "quest.automation/iron_production.title": "Metallurgy & Hoppers",
   "quest.dimensional_explorer/crimson_and_warped.description": [
-    "哭泣的黑曜石和荧石来自废弃传送门、与猪灵以物易物以及下界的顶部。"
+    "Crying obsidian and glowstone come from ruined portals, bartering with piglins and Nether ceilings."
   ],
-  "quest.dimensional_explorer/crimson_and_warped.title": "下界群系的宝藏",
+  "quest.dimensional_explorer/crimson_and_warped.subtitle": "Crying Obsidian & Glowstone",
+  "quest.dimensional_explorer/crimson_and_warped.title": "Spoils of the Nether Biomes",
   "quest.dimensional_explorer/end_expedition.description": [
-    "当你的传送门通往末地时（等级 6 或以上），采集末地石。"
+    "When your gateway opens to the End (island tier 6 or more), gather End Stone."
   ],
-  "quest.dimensional_explorer/end_expedition.title": "末地虚空",
+  "quest.dimensional_explorer/end_expedition.subtitle": "Harvest Ender Pearls & End Stone",
+  "quest.dimensional_explorer/end_expedition.title": "Void of the End",
   "quest.dimensional_explorer/nether_expedition.description": [
-    "当你的传送门通往下界时（等级 2 或以上），找到一座要塞并猎杀烈焰人。"
+    "When your gateway opens to the Nether (island tier 2 or more), find a fortress and hunt blazes."
   ],
-  "quest.dimensional_explorer/nether_expedition.title": "下界要塞与烈焰棒",
+  "quest.dimensional_explorer/nether_expedition.subtitle": "Brave the Nether during a gateway cycle",
+  "quest.dimensional_explorer/nether_expedition.title": "Nether Fortress & Blazing Rods",
   "quest.dimensional_mastery/master_of_chaos.description": [
-    "击败凋灵并留下它的下界之星。"
+    "Defeat the Wither and keep its Nether Star."
   ],
-  "quest.dimensional_mastery/master_of_chaos.title": "维度混沌大师",
+  "quest.dimensional_mastery/master_of_chaos.subtitle": "Claim the Nether Star",
+  "quest.dimensional_mastery/master_of_chaos.title": "Master of Dimensional Chaos",
   "quest.dimensional_mastery/slay_dragon.description": [
-    "当你的传送门通往末地时（等级 6 或以上），屠杀末影龙。这需要多次远征：战斗会从你上次离开的地方继续。"
+    "When your gateway opens to the End (island tier 6 or more), slay the Ender Dragon. It takes several expeditions: the fight resumes where you left it."
   ],
-  "quest.dimensional_mastery/slay_dragon.title": "末地征服者",
+  "quest.dimensional_mastery/slay_dragon.subtitle": "Defeat the Ender Dragon during an expedition",
+  "quest.dimensional_mastery/slay_dragon.title": "Conqueror of the End",
   "quest.island_tier_1/island_tier_1.description": [
-    "完成本章的 6 个必做任务，即可把岛屿边界半径从 16 扩大到 24。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 6 required quests of this chapter to expand your island border from radius 16 to 24.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_1/island_tier_1.subtitle": "边界半径 16 -> 24",
-  "quest.island_tier_1/island_tier_1.title": "岛屿扩张 1",
+  "quest.island_tier_1/island_tier_1.subtitle": "Border radius 16 -> 24",
+  "quest.island_tier_1/island_tier_1.title": "Island Expansion 1",
   "quest.island_tier_1/t1_bread.description": [
-    "单方块的干草块会掉落小麦。三个小麦可合成一个面包。"
+    "Hay bales from the OneBlock break into wheat. Three wheat make a bread."
   ],
-  "quest.island_tier_1/t1_bread.subtitle": "可选",
-  "quest.island_tier_1/t1_bread.title": "每日面包",
+  "quest.island_tier_1/t1_bread.subtitle": "Optional",
+  "quest.island_tier_1/t1_bread.title": "Daily Bread",
   "quest.island_tier_1/t1_bricks.description": [
-    "黏土块来自单方块。烧制黏土球即可获得红砖。"
+    "Clay blocks come from the OneBlock. Smelt clay balls into bricks."
   ],
-  "quest.island_tier_1/t1_bricks.subtitle": "可选",
-  "quest.island_tier_1/t1_bricks.title": "从黏土到砖",
+  "quest.island_tier_1/t1_bricks.subtitle": "Optional",
+  "quest.island_tier_1/t1_bricks.title": "Clay into Brick",
   "quest.island_tier_1/t1_bridge.description": [
-    "发光的维度传送门漂浮在离单方块几格远的地方。用泥土铺一条路走过去，别掉进虚空。",
-    "提示：在边缘潜行（Shift）可以安全地放置方块。"
+    "The glowing Dimensional Gateway floats a few blocks from your OneBlock. Build a path of dirt to reach it, without falling into the void.",
+    "Tip: sneak (Shift) at the edge to place blocks safely."
   ],
-  "quest.island_tier_1/t1_bridge.subtitle": "主要目标",
-  "quest.island_tier_1/t1_bridge.title": "通往传送门的桥",
+  "quest.island_tier_1/t1_bridge.subtitle": "Main objective",
+  "quest.island_tier_1/t1_bridge.title": "Bridge to the Gateway",
   "quest.island_tier_1/t1_coal.description": [
-    "挖掘 128 个方块后，或岛屿一达到等级 1，单方块就会进入生存阶段：煤、铜和铁开始出现。"
+    "After 128 blocks, or as soon as your island reaches tier 1, the OneBlock enters the Survival phase: coal, copper and iron start to appear."
   ],
-  "quest.island_tier_1/t1_coal.subtitle": "可选",
-  "quest.island_tier_1/t1_coal.title": "燃料",
+  "quest.island_tier_1/t1_coal.subtitle": "Optional",
+  "quest.island_tier_1/t1_coal.title": "Fuel",
   "quest.island_tier_1/t1_copper.description": [
-    "用石镐开采铜矿石并烧炼。"
+    "Mine copper ore with a stone pickaxe and smelt it."
   ],
-  "quest.island_tier_1/t1_copper.subtitle": "可选",
-  "quest.island_tier_1/t1_copper.title": "第一种金属",
+  "quest.island_tier_1/t1_copper.subtitle": "Optional",
+  "quest.island_tier_1/t1_copper.title": "First Metal",
   "quest.island_tier_1/t1_enter_gateway.description": [
-    "在传送门开启时进入它（每个周期的白天，见面板）。",
-    "你抵达时会出现一座归途传送门：在你进入后的 15 分钟内，它就是你回家的路。"
+    "Step into the gateway while it is open (the day of each cycle, see the panel on screen).",
+    "A Return Gateway appears where you arrive: it is your way home for 15 minutes from your entry."
   ],
-  "quest.island_tier_1/t1_enter_gateway.subtitle": "主要目标",
-  "quest.island_tier_1/t1_enter_gateway.title": "穿过传送门",
+  "quest.island_tier_1/t1_enter_gateway.subtitle": "Main objective",
+  "quest.island_tier_1/t1_enter_gateway.title": "Through the Gateway",
   "quest.island_tier_1/t1_first_logs.description": [
-    "不断破坏脚下的单方块：它每次都会以新方块的形式重生。",
-    "它的掉落物会直接进入你的背包。最初的方块是泥土和四块橡木原木。"
+    "Break the OneBlock under your feet again and again: it comes back each time with a new block.",
+    "Everything it drops goes straight into your inventory. The very first blocks are dirt and four oak logs."
   ],
-  "quest.island_tier_1/t1_first_logs.subtitle": "主要目标",
-  "quest.island_tier_1/t1_first_logs.title": "第一批原木",
+  "quest.island_tier_1/t1_first_logs.subtitle": "Main objective",
+  "quest.island_tier_1/t1_first_logs.title": "First Logs",
   "quest.island_tier_1/t1_furnace.description": [
-    "八个圆石可合成一个熔炉。烧炼原木可获得木炭（燃料和火把）。"
+    "Eight cobblestone make a furnace. Smelt logs into charcoal for fuel and torches."
   ],
-  "quest.island_tier_1/t1_furnace.subtitle": "主要目标",
-  "quest.island_tier_1/t1_furnace.title": "虚空中的火",
+  "quest.island_tier_1/t1_furnace.subtitle": "Main objective",
+  "quest.island_tier_1/t1_furnace.title": "Fire in the Void",
   "quest.island_tier_1/t1_moss.description": [
-    "苔藓可用骨粉蔓延，让你的岛屿变绿。"
+    "Moss spreads with bone meal and makes your island greener."
   ],
-  "quest.island_tier_1/t1_moss.subtitle": "可选",
-  "quest.island_tier_1/t1_moss.title": "绿色的地面",
+  "quest.island_tier_1/t1_moss.subtitle": "Optional",
+  "quest.island_tier_1/t1_moss.title": "Green Ground",
   "quest.island_tier_1/t1_return_home.description": [
-    "在你的 15 分钟用完前使用归途传送门（面板上的“归途传送门：”）。",
-    "太迟了？它会崩塌，你必须修复一道维度裂隙才能回家。留好这两个碎片。"
+    "Use your Return Gateway before your 15 minutes run out (\"Return portal:\" on the panel).",
+    "If you are too late it collapses and you must repair a Dimensional Fracture to come back: keep these two fragments for that."
   ],
-  "quest.island_tier_1/t1_return_home.subtitle": "主要目标",
-  "quest.island_tier_1/t1_return_home.title": "及时回家",
+  "quest.island_tier_1/t1_return_home.subtitle": "Main objective",
+  "quest.island_tier_1/t1_return_home.title": "Home in Time",
   "quest.island_tier_1/t1_saplings.description": [
-    "把树苗种在泥土上：树就是可再生的木材。单方块的盆栽树苗会掉落树苗。"
+    "Plant a sapling on dirt: a tree is renewable wood. Potted saplings from the OneBlock give saplings."
   ],
-  "quest.island_tier_1/t1_saplings.subtitle": "可选",
-  "quest.island_tier_1/t1_saplings.title": "第二棵树",
+  "quest.island_tier_1/t1_saplings.subtitle": "Optional",
+  "quest.island_tier_1/t1_saplings.title": "A Second Tree",
   "quest.island_tier_1/t1_stone_pick.description": [
-    "把原木做成木板，制作工作台、木棍和木镐，然后挖掘石头获得圆石。",
-    "还没有镐？你仍可以徒手破坏石头：它不会掉落任何东西，而木头总会再次出现。"
+    "Turn logs into planks, make a crafting table, sticks and a wooden pickaxe, then mine stone for cobblestone.",
+    "No pickaxe yet? You can still punch through stone: it just gives nothing, and wood always comes back."
   ],
-  "quest.island_tier_1/t1_stone_pick.subtitle": "主要目标",
-  "quest.island_tier_1/t1_stone_pick.title": "石制工具",
+  "quest.island_tier_1/t1_stone_pick.subtitle": "Main objective",
+  "quest.island_tier_1/t1_stone_pick.title": "Stone Tools",
   "quest.island_tier_2/island_tier_2.description": [
-    "完成本章的 4 个必做任务，即可把岛屿边界半径从 24 扩大到 32。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 4 required quests of this chapter to expand your island border from radius 24 to 32.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_2/island_tier_2.subtitle": "边界半径 24 -> 32",
-  "quest.island_tier_2/island_tier_2.title": "岛屿扩张 2",
+  "quest.island_tier_2/island_tier_2.subtitle": "Border radius 24 -> 32",
+  "quest.island_tier_2/island_tier_2.title": "Island Expansion 2",
   "quest.island_tier_2/t2_bed.description": [
-    "床可以设置你的重生点。睡觉会跳过夜晚，不改变维度周期。"
+    "A bed sets your spawn point. Sleeping skips the night without changing the dimensional cycle."
   ],
-  "quest.island_tier_2/t2_bed.subtitle": "可选",
-  "quest.island_tier_2/t2_bed.title": "真正的床",
+  "quest.island_tier_2/t2_bed.subtitle": "Optional",
+  "quest.island_tier_2/t2_bed.title": "A Real Bed",
   "quest.island_tier_2/t2_bucket.description": [
-    "三个铁锭。水在暮色森林，岩浆稍后在下界。"
+    "Three iron ingots. Water from the Twilight Forest, lava from the Nether later."
   ],
-  "quest.island_tier_2/t2_bucket.subtitle": "可选",
-  "quest.island_tier_2/t2_bucket.title": "一个桶",
+  "quest.island_tier_2/t2_bucket.subtitle": "Optional",
+  "quest.island_tier_2/t2_bucket.title": "A Bucket",
   "quest.island_tier_2/t2_composter.description": [
-    "把多余的种子和树苗变成骨粉。"
+    "Turns extra seeds and saplings into bone meal."
   ],
-  "quest.island_tier_2/t2_composter.subtitle": "可选",
-  "quest.island_tier_2/t2_composter.title": "堆肥",
+  "quest.island_tier_2/t2_composter.subtitle": "Optional",
+  "quest.island_tier_2/t2_composter.title": "Compost",
   "quest.island_tier_2/t2_iron.description": [
-    "铁矿石在生存阶段出现。用石镐开采并烧炼。"
+    "Iron ore appears in the Survival phase. Mine it with a stone pickaxe and smelt it."
   ],
-  "quest.island_tier_2/t2_iron.subtitle": "主要目标",
-  "quest.island_tier_2/t2_iron.title": "铁储备",
+  "quest.island_tier_2/t2_iron.subtitle": "Main objective",
+  "quest.island_tier_2/t2_iron.title": "Iron Supply",
   "quest.island_tier_2/t2_iron_pick.description": [
-    "开采钻石、金和许多模组矿石所必需。"
+    "Needed for diamonds, gold and many modded ores."
   ],
-  "quest.island_tier_2/t2_iron_pick.subtitle": "主要目标",
-  "quest.island_tier_2/t2_iron_pick.title": "铁镐",
+  "quest.island_tier_2/t2_iron_pick.subtitle": "Main objective",
+  "quest.island_tier_2/t2_iron_pick.title": "Iron Pickaxe",
   "quest.island_tier_2/t2_melons.description": [
-    "西瓜在生存阶段来自单方块。"
+    "Melon blocks come from the OneBlock in the Survival phase."
   ],
-  "quest.island_tier_2/t2_melons.subtitle": "可选",
-  "quest.island_tier_2/t2_melons.title": "一块西瓜地",
+  "quest.island_tier_2/t2_melons.subtitle": "Optional",
+  "quest.island_tier_2/t2_melons.title": "Melon Patch",
   "quest.island_tier_2/t2_shield.description": [
-    "一个铁锭和一些木板。远征时右键可格挡箭矢和攻击。"
+    "One iron ingot and planks. Right-click to block arrows and hits during expeditions."
   ],
-  "quest.island_tier_2/t2_shield.subtitle": "主要目标",
-  "quest.island_tier_2/t2_shield.title": "举起盾牌",
+  "quest.island_tier_2/t2_shield.subtitle": "Main objective",
+  "quest.island_tier_2/t2_shield.title": "Raise a Shield",
   "quest.island_tier_2/t2_skeletons.description": [
-    "骷髅掉落骨头：可做成给树用的骨粉。"
+    "Skeletons drop bones: bone meal for your trees."
   ],
-  "quest.island_tier_2/t2_skeletons.subtitle": "可选",
-  "quest.island_tier_2/t2_skeletons.title": "弓箭手",
+  "quest.island_tier_2/t2_skeletons.subtitle": "Optional",
+  "quest.island_tier_2/t2_skeletons.title": "Archers",
   "quest.island_tier_2/t2_spiders.description": [
-    "四根线可合成一块羊毛：你的岛屿上没有羊。"
+    "Four string make a wool block: there are no sheep on your island."
   ],
-  "quest.island_tier_2/t2_spiders.subtitle": "可选",
-  "quest.island_tier_2/t2_spiders.title": "线",
+  "quest.island_tier_2/t2_spiders.subtitle": "Optional",
+  "quest.island_tier_2/t2_spiders.title": "String",
   "quest.island_tier_2/t2_sponge.description": [
-    "在熔炉中烘干单方块产出的湿海绵。"
+    "Smelt a wet sponge from the OneBlock."
   ],
-  "quest.island_tier_2/t2_sponge.subtitle": "可选",
-  "quest.island_tier_2/t2_sponge.title": "干海绵",
+  "quest.island_tier_2/t2_sponge.subtitle": "Optional",
+  "quest.island_tier_2/t2_sponge.title": "Dry Sponge",
   "quest.island_tier_2/t2_twilight.description": [
-    "年轻的岛屿总能抵达暮色森林。那里有水、动物（皮革、羊毛、食物）和大量木材。",
-    "带回一桶水：两格水源就能在你的岛屿上形成无限水。"
+    "The Twilight Forest is always open to young islands. It has water, animals (leather, wool, food) and plenty of wood.",
+    "Bring a bucket back full of water: two water sources make an infinite water pool on your island."
   ],
-  "quest.island_tier_2/t2_twilight.subtitle": "主要目标",
-  "quest.island_tier_2/t2_twilight.title": "走进暮色",
+  "quest.island_tier_2/t2_twilight.subtitle": "Main objective",
+  "quest.island_tier_2/t2_twilight.title": "Into the Twilight",
   "quest.island_tier_2/t2_zombies.description": [
-    "夜晚，怪物会在你昏暗的建筑上以及远征时在你周围生成。用火把照亮你的岛屿。"
+    "Monsters spawn on your dark builds at night and around you during expeditions. Light up your island with torches."
   ],
-  "quest.island_tier_2/t2_zombies.subtitle": "可选",
-  "quest.island_tier_2/t2_zombies.title": "守夜",
+  "quest.island_tier_2/t2_zombies.subtitle": "Optional",
+  "quest.island_tier_2/t2_zombies.title": "Night Watch",
   "quest.island_tier_3/island_tier_3.description": [
-    "完成本章的 4 个必做任务，即可把岛屿边界半径从 32 扩大到 40。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 4 required quests of this chapter to expand your island border from radius 32 to 40.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_3/island_tier_3.subtitle": "边界半径 32 -> 40",
-  "quest.island_tier_3/island_tier_3.title": "岛屿扩张 3",
+  "quest.island_tier_3/island_tier_3.subtitle": "Border radius 32 -> 40",
+  "quest.island_tier_3/island_tier_3.title": "Island Expansion 3",
   "quest.island_tier_3/t3_blazes.description": [
-    "烈焰人生活在下界要塞。在一次 15 分钟的远征内找到一座。"
+    "Blazes live in Nether fortresses. Find one within a single 15-minute expedition."
   ],
-  "quest.island_tier_3/t3_blazes.subtitle": "可选",
-  "quest.island_tier_3/t3_blazes.title": "烈焰棒",
+  "quest.island_tier_3/t3_blazes.subtitle": "Optional",
+  "quest.island_tier_3/t3_blazes.title": "Blaze Rods",
   "quest.island_tier_3/t3_books.description": [
-    "纸（甘蔗）和皮革（暮色森林的动物）。"
+    "Paper from sugar cane, leather from Twilight Forest animals."
   ],
-  "quest.island_tier_3/t3_books.subtitle": "可选",
-  "quest.island_tier_3/t3_books.title": "书",
+  "quest.island_tier_3/t3_books.subtitle": "Optional",
+  "quest.island_tier_3/t3_books.title": "Books",
   "quest.island_tier_3/t3_diamonds.description": [
-    "工程阶段（等级 3，或 512 个方块）以连续三个钻石矿石开始。"
+    "The Engineering phase (island tier 3, or 512 blocks) opens with three diamond ores in a row."
   ],
-  "quest.island_tier_3/t3_diamonds.subtitle": "可选",
-  "quest.island_tier_3/t3_diamonds.title": "钻石",
+  "quest.island_tier_3/t3_diamonds.subtitle": "Optional",
+  "quest.island_tier_3/t3_diamonds.title": "Diamonds",
   "quest.island_tier_3/t3_enchanting.description": [
-    "钻石、黑曜石和一本书。"
+    "Diamonds, obsidian and a book."
   ],
-  "quest.island_tier_3/t3_enchanting.subtitle": "可选",
-  "quest.island_tier_3/t3_enchanting.title": "附魔台",
+  "quest.island_tier_3/t3_enchanting.subtitle": "Optional",
+  "quest.island_tier_3/t3_enchanting.title": "Enchanting Table",
   "quest.island_tier_3/t3_farmland.description": [
-    "下级耕地能提高神秘农业作物的产量。手持下级精华右键已开垦的耕地（或用锄 + 下级精华 + 泥土合成），然后看着它。"
+    "Inferium farmland makes Mystical Agriculture crops more productive. Right-click tilled farmland with inferium essence (or craft a hoe + inferium essence + dirt), then look at it."
   ],
-  "quest.island_tier_3/t3_farmland.subtitle": "可选",
-  "quest.island_tier_3/t3_farmland.title": "强化土壤",
+  "quest.island_tier_3/t3_farmland.subtitle": "Optional",
+  "quest.island_tier_3/t3_farmland.title": "Enriched Soil",
   "quest.island_tier_3/t3_gold.description": [
-    "下界金矿石掉落金粒；单方块在后续阶段会产出金矿石。"
+    "Nether gold ore gives nuggets; the OneBlock gives gold ore in later phases."
   ],
-  "quest.island_tier_3/t3_gold.subtitle": "可选",
-  "quest.island_tier_3/t3_gold.title": "金",
+  "quest.island_tier_3/t3_gold.subtitle": "Optional",
+  "quest.island_tier_3/t3_gold.title": "Gold",
   "quest.island_tier_3/t3_inferium.description": [
-    "每只怪物有 20% 的几率掉落下级精华，这是神秘农业的基础。"
+    "Every monster has a 20% chance to drop Inferium Essence, the base of Mystical Agriculture."
   ],
-  "quest.island_tier_3/t3_inferium.subtitle": "主要目标",
-  "quest.island_tier_3/t3_inferium.title": "下级精华",
+  "quest.island_tier_3/t3_inferium.subtitle": "Main objective",
+  "quest.island_tier_3/t3_inferium.title": "Inferium",
   "quest.island_tier_3/t3_inferium_seeds.description": [
-    "8 个下级精华围绕小麦种子合成。种在耕地上，它们会自行产出更多精华。",
-    "更好的种子和精华需要繁荣碎片：繁荣矿石出现在单方块的工程阶段（等级 3，或 512 个方块）和下界（下界繁荣矿石）。"
+    "8 Inferium Essence around wheat seeds. Planted on farmland, they grow more essence by themselves.",
+    "Better seeds and essences need prosperity shards: prosperity ore appears in the OneBlock's Engineering phase (island tier 3, or 512 blocks) and as Nether prosperity ore in the Nether."
   ],
-  "quest.island_tier_3/t3_inferium_seeds.subtitle": "可选",
-  "quest.island_tier_3/t3_inferium_seeds.title": "下级种子",
+  "quest.island_tier_3/t3_inferium_seeds.subtitle": "Optional",
+  "quest.island_tier_3/t3_inferium_seeds.title": "Inferium Seeds",
   "quest.island_tier_3/t3_nether.description": [
-    "当你的岛屿达到等级 2，传送门就可能通往下界。岩浆、恶魂和要塞：务必小心。"
+    "When your island reaches tier 2, the gateway can open to the Nether. Lava, ghasts and fortresses: be careful."
   ],
-  "quest.island_tier_3/t3_nether.subtitle": "主要目标",
-  "quest.island_tier_3/t3_nether.title": "下界",
+  "quest.island_tier_3/t3_nether.subtitle": "Main objective",
+  "quest.island_tier_3/t3_nether.title": "The Nether",
   "quest.island_tier_3/t3_obsidian.description": [
-    "把水倒在静止的岩浆上：一桶下界岩浆和暮色森林的水。"
+    "Pour water onto still lava: a lava bucket from the Nether and water from the Twilight Forest."
   ],
-  "quest.island_tier_3/t3_obsidian.subtitle": "主要目标",
-  "quest.island_tier_3/t3_obsidian.title": "黑曜石",
+  "quest.island_tier_3/t3_obsidian.subtitle": "Main objective",
+  "quest.island_tier_3/t3_obsidian.title": "Obsidian",
   "quest.island_tier_3/t3_quartz.description": [
-    "下界岩中到处都是石英矿石。石英 + 圆石可合成闪长岩，这是机械动力所需安山岩的起点。"
+    "Nether quartz ore is everywhere in netherrack. Quartz + cobblestone make diorite, the start of andesite for Create."
   ],
-  "quest.island_tier_3/t3_quartz.subtitle": "主要目标",
-  "quest.island_tier_3/t3_quartz.title": "下界石英",
+  "quest.island_tier_3/t3_quartz.subtitle": "Main objective",
+  "quest.island_tier_3/t3_quartz.title": "Nether Quartz",
   "quest.island_tier_4/island_tier_4.description": [
-    "完成本章的 5 个必做任务，即可把岛屿边界半径从 40 扩大到 48。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 5 required quests of this chapter to expand your island border from radius 40 to 48.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_4/island_tier_4.subtitle": "边界半径 40 -> 48",
-  "quest.island_tier_4/island_tier_4.title": "岛屿扩张 4",
+  "quest.island_tier_4/island_tier_4.subtitle": "Border radius 40 -> 48",
+  "quest.island_tier_4/island_tier_4.title": "Island Expansion 4",
   "quest.island_tier_4/t4_andesite_alloy.description": [
-    "安山岩 + 铁粒或锌粒。安山岩 = 闪长岩 + 圆石；闪长岩 = 石英 + 圆石。"
+    "Andesite + iron or zinc nuggets. Andesite = diorite + cobblestone; diorite = quartz + cobblestone."
   ],
-  "quest.island_tier_4/t4_andesite_alloy.subtitle": "主要目标",
-  "quest.island_tier_4/t4_andesite_alloy.title": "安山合金",
+  "quest.island_tier_4/t4_andesite_alloy.subtitle": "Main objective",
+  "quest.island_tier_4/t4_andesite_alloy.title": "Andesite Alloy",
   "quest.island_tier_4/t4_basin.description": [
-    "搅拌器和辊压机会处理放在工作盆中的物品。"
+    "Mixers and presses work on items placed in a basin."
   ],
-  "quest.island_tier_4/t4_basin.subtitle": "可选",
-  "quest.island_tier_4/t4_basin.title": "工作盆",
+  "quest.island_tier_4/t4_basin.subtitle": "Optional",
+  "quest.island_tier_4/t4_basin.title": "Basin",
   "quest.island_tier_4/t4_brass.description": [
-    "在烈焰人燃烧室上方搅拌铜和锌（加热搅拌）。"
+    "Copper + zinc mixed over a blaze burner (heated mixing)."
   ],
-  "quest.island_tier_4/t4_brass.subtitle": "可选",
-  "quest.island_tier_4/t4_brass.title": "黄铜",
+  "quest.island_tier_4/t4_brass.subtitle": "Optional",
+  "quest.island_tier_4/t4_brass.title": "Brass",
   "quest.island_tier_4/t4_cogs.description": [
-    "齿轮在传动杆之间传递旋转。"
+    "Cogwheels carry rotation between shafts."
   ],
-  "quest.island_tier_4/t4_cogs.subtitle": "主要目标",
-  "quest.island_tier_4/t4_cogs.title": "齿轮",
+  "quest.island_tier_4/t4_cogs.subtitle": "Main objective",
+  "quest.island_tier_4/t4_cogs.title": "Cogwheels",
   "quest.island_tier_4/t4_fan.description": [
-    "鼓风机可批量洗涤、烟熏或烧炼物品。"
+    "Fans wash, smoke or smelt items in bulk."
   ],
-  "quest.island_tier_4/t4_fan.subtitle": "可选",
-  "quest.island_tier_4/t4_fan.title": "鼓风机",
+  "quest.island_tier_4/t4_fan.subtitle": "Optional",
+  "quest.island_tier_4/t4_fan.title": "Encased Fan",
   "quest.island_tier_4/t4_mechanism.description": [
-    "通过序列组装制作，需要机械手、辊压机和动力锯。"
+    "Made by sequenced assembly with a deployer, a press and a saw."
   ],
-  "quest.island_tier_4/t4_mechanism.subtitle": "可选",
-  "quest.island_tier_4/t4_mechanism.title": "精密构件",
+  "quest.island_tier_4/t4_mechanism.subtitle": "Optional",
+  "quest.island_tier_4/t4_mechanism.title": "Precision Mechanism",
   "quest.island_tier_4/t4_millstone.description": [
-    "把圆石磨成沙砾，再把沙砾磨成沙子。"
+    "Grinds cobblestone into gravel and gravel into sand."
   ],
-  "quest.island_tier_4/t4_millstone.subtitle": "可选",
-  "quest.island_tier_4/t4_millstone.title": "石磨",
+  "quest.island_tier_4/t4_millstone.subtitle": "Optional",
+  "quest.island_tier_4/t4_millstone.title": "Millstone",
   "quest.island_tier_4/t4_mixer.description": [
-    "在工作盆中混合材料。"
+    "Mixes ingredients in a basin."
   ],
-  "quest.island_tier_4/t4_mixer.subtitle": "可选",
-  "quest.island_tier_4/t4_mixer.title": "动力搅拌器",
+  "quest.island_tier_4/t4_mixer.subtitle": "Optional",
+  "quest.island_tier_4/t4_mixer.title": "Mechanical Mixer",
   "quest.island_tier_4/t4_press.description": [
-    "把锭压成板。需要安山机壳（合金用在去皮木头上）和一个铁块。"
+    "Presses ingots into plates. Needs an andesite casing (alloy on stripped wood) and an iron block."
   ],
-  "quest.island_tier_4/t4_press.subtitle": "主要目标",
-  "quest.island_tier_4/t4_press.title": "动力辊压机",
+  "quest.island_tier_4/t4_press.subtitle": "Main objective",
+  "quest.island_tier_4/t4_press.title": "Mechanical Press",
   "quest.island_tier_4/t4_shafts.description": [
-    "传动杆沿直线传递旋转。"
+    "Shafts carry rotation in a straight line."
   ],
-  "quest.island_tier_4/t4_shafts.subtitle": "可选",
-  "quest.island_tier_4/t4_shafts.title": "传动杆",
+  "quest.island_tier_4/t4_shafts.subtitle": "Optional",
+  "quest.island_tier_4/t4_shafts.title": "Shafts",
   "quest.island_tier_4/t4_water_wheel.description": [
-    "把它贴着流水放置：这是你的第一个旋转来源。"
+    "Place it next to flowing water: your first source of rotation."
   ],
-  "quest.island_tier_4/t4_water_wheel.subtitle": "主要目标",
-  "quest.island_tier_4/t4_water_wheel.title": "水车",
+  "quest.island_tier_4/t4_water_wheel.subtitle": "Main objective",
+  "quest.island_tier_4/t4_water_wheel.title": "Water Wheel",
   "quest.island_tier_4/t4_zinc.description": [
-    "锌矿石出现在单方块的工程阶段：岛屿达到等级 3（或挖掘 512 个方块后）时开始。"
+    "Zinc ore appears in the OneBlock's Engineering phase: it starts when your island reaches tier 3 (or after 512 blocks)."
   ],
-  "quest.island_tier_4/t4_zinc.subtitle": "主要目标",
-  "quest.island_tier_4/t4_zinc.title": "锌",
+  "quest.island_tier_4/t4_zinc.subtitle": "Main objective",
+  "quest.island_tier_4/t4_zinc.title": "Zinc",
   "quest.island_tier_5/island_tier_5.description": [
-    "完成本章的 4 个必做任务，即可把岛屿边界半径从 48 扩大到 56。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 4 required quests of this chapter to expand your island border from radius 48 to 56.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_5/island_tier_5.subtitle": "边界半径 48 -> 56",
-  "quest.island_tier_5/island_tier_5.title": "岛屿扩张 5",
+  "quest.island_tier_5/island_tier_5.subtitle": "Border radius 48 -> 56",
+  "quest.island_tier_5/island_tier_5.title": "Island Expansion 5",
   "quest.island_tier_5/t5_aether.description": [
-    "天空中的浮岛。注意脚下：坠落是最大的危险。"
+    "Floating islands in the sky. Watch your step: falling is the main danger."
   ],
-  "quest.island_tier_5/t5_aether.subtitle": "可选",
-  "quest.island_tier_5/t5_aether.title": "天境",
+  "quest.island_tier_5/t5_aether.subtitle": "Optional",
+  "quest.island_tier_5/t5_aether.title": "The Aether",
   "quest.island_tier_5/t5_apparatus.description": [
-    "新生魔艺合成仪式的核心。"
+    "The heart of Ars Nouveau crafting rituals."
   ],
-  "quest.island_tier_5/t5_apparatus.subtitle": "可选",
-  "quest.island_tier_5/t5_apparatus.title": "附魔装置",
+  "quest.island_tier_5/t5_apparatus.subtitle": "Optional",
+  "quest.island_tier_5/t5_apparatus.title": "Enchanting Apparatus",
   "quest.island_tier_5/t5_arcane_essence.description": [
-    "铁魔法的护符：四块皮革围绕一个紫水晶碎片（在压缩筛中筛沙砾获得）。"
+    "An Iron's Spells charm: four leather around an amethyst shard (sieve gravel through a compressed sieve)."
   ],
-  "quest.island_tier_5/t5_arcane_essence.subtitle": "可选",
-  "quest.island_tier_5/t5_arcane_essence.title": "共鸣护符",
+  "quest.island_tier_5/t5_arcane_essence.subtitle": "Optional",
+  "quest.island_tier_5/t5_arcane_essence.title": "Resonance Charm",
   "quest.island_tier_5/t5_archwood.description": [
-    "单方块奥术阶段（等级 4，或 1536 个方块）产出的魔法木材。"
+    "Magical wood from the OneBlock's Arcane phase (island tier 4, or 1536 blocks)."
   ],
-  "quest.island_tier_5/t5_archwood.subtitle": "可选",
-  "quest.island_tier_5/t5_archwood.title": "魔木",
+  "quest.island_tier_5/t5_archwood.subtitle": "Optional",
+  "quest.island_tier_5/t5_archwood.title": "Archwood",
   "quest.island_tier_5/t5_imbuement.description": [
-    "用魔源把紫水晶等物品变成魔法材料。"
+    "Turns amethyst and other items into magical materials with Source."
   ],
-  "quest.island_tier_5/t5_imbuement.subtitle": "可选",
-  "quest.island_tier_5/t5_imbuement.title": "灌注室",
+  "quest.island_tier_5/t5_imbuement.subtitle": "Optional",
+  "quest.island_tier_5/t5_imbuement.title": "Imbuement Chamber",
   "quest.island_tier_5/t5_inscription.description": [
-    "铁魔法：把卷轴铭刻进你的法术书。"
+    "Iron's Spells: inscribe scrolls into your spell book."
   ],
-  "quest.island_tier_5/t5_inscription.subtitle": "主要目标",
-  "quest.island_tier_5/t5_inscription.title": "铭文台",
+  "quest.island_tier_5/t5_inscription.subtitle": "Main objective",
+  "quest.island_tier_5/t5_inscription.title": "Inscription Table",
   "quest.island_tier_5/t5_lapis.description": [
-    "单方块的奥术阶段在等级 4（或 1536 个方块）开始，会出现青金石矿石；用 Ex Deorum 筛子和铁网筛沙砾也能找到。"
+    "The OneBlock's Arcane phase starts at island tier 4 (or 1536 blocks) with lapis ore; an Ex Deorum sieve with an iron mesh also finds it in gravel."
   ],
-  "quest.island_tier_5/t5_lapis.subtitle": "主要目标",
-  "quest.island_tier_5/t5_lapis.title": "青金石",
+  "quest.island_tier_5/t5_lapis.subtitle": "Main objective",
+  "quest.island_tier_5/t5_lapis.title": "Lapis",
   "quest.island_tier_5/t5_scribe.description": [
-    "为你的法术学习新的符文。"
+    "Learn new glyphs for your spells."
   ],
-  "quest.island_tier_5/t5_scribe.subtitle": "可选",
-  "quest.island_tier_5/t5_scribe.title": "抄写台",
+  "quest.island_tier_5/t5_scribe.subtitle": "Optional",
+  "quest.island_tier_5/t5_scribe.title": "Scribe's Table",
   "quest.island_tier_5/t5_source_gems.description": [
-    "在灌注室中制作。"
+    "Made in the imbuement chamber."
   ],
-  "quest.island_tier_5/t5_source_gems.subtitle": "可选",
-  "quest.island_tier_5/t5_source_gems.title": "魔源宝石",
+  "quest.island_tier_5/t5_source_gems.subtitle": "Optional",
+  "quest.island_tier_5/t5_source_gems.title": "Source Gems",
   "quest.island_tier_5/t5_source_jar.description": [
-    "为你的机器储存魔源。"
+    "Stores Source for your machines."
   ],
-  "quest.island_tier_5/t5_source_jar.subtitle": "可选",
-  "quest.island_tier_5/t5_source_jar.title": "魔源罐",
+  "quest.island_tier_5/t5_source_jar.subtitle": "Optional",
+  "quest.island_tier_5/t5_source_jar.title": "Source Jar",
   "quest.island_tier_5/t5_sourcelink.description": [
-    "从生长的植物中产生魔源。"
+    "Generates Source from growing plants."
   ],
-  "quest.island_tier_5/t5_sourcelink.subtitle": "可选",
-  "quest.island_tier_5/t5_sourcelink.title": "农业魔源链接器",
+  "quest.island_tier_5/t5_sourcelink.subtitle": "Optional",
+  "quest.island_tier_5/t5_sourcelink.title": "Agronomic Sourcelink",
   "quest.island_tier_5/t5_spell_book.description": [
-    "你的第一本新生魔艺法术书：用符文组合法术。"
+    "Your first Ars Nouveau spell book: write spells from glyphs."
   ],
-  "quest.island_tier_5/t5_spell_book.subtitle": "主要目标",
-  "quest.island_tier_5/t5_spell_book.title": "新手法术书",
+  "quest.island_tier_5/t5_spell_book.subtitle": "Main objective",
+  "quest.island_tier_5/t5_spell_book.title": "Novice Spell Book",
   "quest.island_tier_5/t5_undergarden.description": [
-    "等级 4 会开放幽暗地底：只要本章还需要它，你的传送门就会优先前往。",
-    "黑暗的洞穴和难缠的本地怪物：带上火把、盾牌和食物。"
+    "Island tier 4 opens the Undergarden: your gateway goes there first while this chapter needs it.",
+    "Dark caverns and tough native mobs: bring torches, a shield and food."
   ],
-  "quest.island_tier_5/t5_undergarden.subtitle": "主要目标",
-  "quest.island_tier_5/t5_undergarden.title": "地下世界",
+  "quest.island_tier_5/t5_undergarden.subtitle": "Main objective",
+  "quest.island_tier_5/t5_undergarden.title": "Under the World",
   "quest.island_tier_6/island_tier_6.description": [
-    "完成本章的 6 个必做任务，即可把岛屿边界半径从 56 扩大到 64。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 6 required quests of this chapter to expand your island border from radius 56 to 64.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_6/island_tier_6.subtitle": "边界半径 56 -> 64",
-  "quest.island_tier_6/island_tier_6.title": "岛屿扩张 6",
+  "quest.island_tier_6/island_tier_6.subtitle": "Border radius 56 -> 64",
+  "quest.island_tier_6/island_tier_6.title": "Island Expansion 6",
   "quest.island_tier_6/t6_cables.description": [
-    "在机器之间传输能量。"
+    "Carry energy between machines."
   ],
-  "quest.island_tier_6/t6_cables.subtitle": "可选",
-  "quest.island_tier_6/t6_cables.title": "通用线缆",
+  "quest.island_tier_6/t6_cables.subtitle": "Optional",
+  "quest.island_tier_6/t6_cables.title": "Universal Cables",
   "quest.island_tier_6/t6_circuits.description": [
-    "灌注了红石的锇。"
+    "Osmium infused with redstone."
   ],
-  "quest.island_tier_6/t6_circuits.subtitle": "主要目标",
-  "quest.island_tier_6/t6_circuits.title": "基础控制电路",
+  "quest.island_tier_6/t6_circuits.subtitle": "Main objective",
+  "quest.island_tier_6/t6_circuits.title": "Basic Circuits",
   "quest.island_tier_6/t6_crusher.description": [
-    "自动把圆石粉碎成沙砾，再变成沙子。"
+    "Cobblestone to gravel to sand, automatically."
   ],
-  "quest.island_tier_6/t6_crusher.subtitle": "可选",
-  "quest.island_tier_6/t6_crusher.title": "粉碎机",
+  "quest.island_tier_6/t6_crusher.subtitle": "Optional",
+  "quest.island_tier_6/t6_crusher.title": "Crusher",
   "quest.island_tier_6/t6_energized_steel.description": [
-    "在充能球中放入铁 + 金。"
+    "Iron + gold in an energizing orb."
   ],
-  "quest.island_tier_6/t6_energized_steel.subtitle": "可选",
-  "quest.island_tier_6/t6_energized_steel.title": "充能钢",
+  "quest.island_tier_6/t6_energized_steel.subtitle": "Optional",
+  "quest.island_tier_6/t6_energized_steel.title": "Energized Steel",
   "quest.island_tier_6/t6_energy_cube.description": [
-    "为夜晚储存能量。"
+    "Stores energy for the night."
   ],
-  "quest.island_tier_6/t6_energy_cube.subtitle": "可选",
-  "quest.island_tier_6/t6_energy_cube.title": "能量立方",
+  "quest.island_tier_6/t6_energy_cube.subtitle": "Optional",
+  "quest.island_tier_6/t6_energy_cube.title": "Energy Cube",
   "quest.island_tier_6/t6_enrichment.description": [
-    "让你处理的每个矿石产量翻倍。"
+    "Doubles every ore you process."
   ],
-  "quest.island_tier_6/t6_enrichment.subtitle": "主要目标",
-  "quest.island_tier_6/t6_enrichment.title": "富集仓",
+  "quest.island_tier_6/t6_enrichment.subtitle": "Main objective",
+  "quest.island_tier_6/t6_enrichment.title": "Enrichment Chamber",
   "quest.island_tier_6/t6_furnator.description": [
-    "燃烧燃料来产生能量。"
+    "Burns fuel into energy."
   ],
-  "quest.island_tier_6/t6_furnator.subtitle": "可选",
-  "quest.island_tier_6/t6_furnator.title": "燃料发电机",
+  "quest.island_tier_6/t6_furnator.subtitle": "Optional",
+  "quest.island_tier_6/t6_furnator.title": "Furnator",
   "quest.island_tier_6/t6_infuser.description": [
-    "用碳或红石灌注金属：钢、合金和电路。"
+    "Infuses metals with carbon or redstone: steel, alloys and circuits."
   ],
-  "quest.island_tier_6/t6_infuser.subtitle": "主要目标",
-  "quest.island_tier_6/t6_infuser.title": "冶金灌注机",
+  "quest.island_tier_6/t6_infuser.subtitle": "Main objective",
+  "quest.island_tier_6/t6_infuser.title": "Metallurgic Infuser",
   "quest.island_tier_6/t6_mining.description": [
-    "等级 5 会开放 Allthemodium 的采矿世界：只要本章还需要它，你的传送门就会优先前往。",
-    "巨大的矿脉和钻石；最稀有的矿石需要比你现有的更好的镐。"
+    "Island tier 5 opens Allthemodium's Mining World: your gateway goes there first while this chapter needs it.",
+    "Large ore veins and diamonds; its rarest ores need better pickaxes than you have yet."
   ],
-  "quest.island_tier_6/t6_mining.subtitle": "主要目标",
-  "quest.island_tier_6/t6_mining.title": "采矿世界",
+  "quest.island_tier_6/t6_mining.subtitle": "Main objective",
+  "quest.island_tier_6/t6_mining.title": "The Mining World",
   "quest.island_tier_6/t6_orb.description": [
-    "Powah 中为材料充能的机器。"
+    "Powah's machine that energizes materials."
   ],
-  "quest.island_tier_6/t6_orb.subtitle": "可选",
-  "quest.island_tier_6/t6_orb.title": "充能球",
+  "quest.island_tier_6/t6_orb.subtitle": "Optional",
+  "quest.island_tier_6/t6_orb.title": "Energizing Orb",
   "quest.island_tier_6/t6_osmium.description": [
-    "锇矿石出现在单方块的工业阶段（等级 5，或 4096 个方块），也可以筛取。本次扩张会送你四个锭。"
+    "Osmium ore appears in the OneBlock's Industry phase (island tier 5, or 4096 blocks), or from sieving. This expansion gives you four ingots."
   ],
-  "quest.island_tier_6/t6_osmium.subtitle": "主要目标",
-  "quest.island_tier_6/t6_osmium.title": "锇",
+  "quest.island_tier_6/t6_osmium.subtitle": "Main objective",
+  "quest.island_tier_6/t6_osmium.title": "Osmium",
   "quest.island_tier_6/t6_steel.description": [
-    "用碳（煤或木炭）灌注的铁。"
+    "Iron infused with carbon (coal or charcoal)."
   ],
-  "quest.island_tier_6/t6_steel.subtitle": "主要目标",
-  "quest.island_tier_6/t6_steel.title": "钢",
+  "quest.island_tier_6/t6_steel.subtitle": "Main objective",
+  "quest.island_tier_6/t6_steel.title": "Steel",
   "quest.island_tier_6/t6_uraninite.description": [
-    "Powah 的晶质铀矿出现在工业阶段。"
+    "Powah's uraninite appears in the Industry phase."
   ],
-  "quest.island_tier_6/t6_uraninite.subtitle": "可选",
-  "quest.island_tier_6/t6_uraninite.title": "晶质铀矿",
+  "quest.island_tier_6/t6_uraninite.subtitle": "Optional",
+  "quest.island_tier_6/t6_uraninite.title": "Uraninite",
   "quest.island_tier_7/island_tier_7.description": [
-    "完成本章的 3 个必做任务，即可把岛屿边界半径从 64 扩大到 72。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 3 required quests of this chapter to expand your island border from radius 64 to 72.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_7/island_tier_7.subtitle": "边界半径 64 -> 72",
-  "quest.island_tier_7/island_tier_7.title": "岛屿扩张 7",
+  "quest.island_tier_7/island_tier_7.subtitle": "Border radius 64 -> 72",
+  "quest.island_tier_7/island_tier_7.title": "Island Expansion 7",
   "quest.island_tier_7/t7_cloggrum.description": [
-    "幽暗地底的常见金属。"
+    "The Undergarden's common metal."
   ],
-  "quest.island_tier_7/t7_cloggrum.subtitle": "可选",
-  "quest.island_tier_7/t7_cloggrum.title": "木铁",
+  "quest.island_tier_7/t7_cloggrum.subtitle": "Optional",
+  "quest.island_tier_7/t7_cloggrum.title": "Cloggrum",
   "quest.island_tier_7/t7_debris.description": [
-    "位于下界深处；能抵抗爆炸。"
+    "Deep in the Nether; blast-resistant."
   ],
-  "quest.island_tier_7/t7_debris.subtitle": "可选",
-  "quest.island_tier_7/t7_debris.title": "远古残骸",
+  "quest.island_tier_7/t7_debris.subtitle": "Optional",
+  "quest.island_tier_7/t7_debris.title": "Ancient Debris",
   "quest.island_tier_7/t7_end.description": [
-    "四周皆是虚空，到处都是末影人。别直视它们的眼睛。"
+    "Void all around, Endermen everywhere. Do not look them in the eyes."
   ],
-  "quest.island_tier_7/t7_end.subtitle": "主要目标",
-  "quest.island_tier_7/t7_end.title": "末地",
+  "quest.island_tier_7/t7_end.subtitle": "Main objective",
+  "quest.island_tier_7/t7_end.title": "The End",
   "quest.island_tier_7/t7_end_stone.description": [
-    "一种龙无法破坏的优质建筑方块。"
+    "A good building block that dragons cannot destroy."
   ],
-  "quest.island_tier_7/t7_end_stone.subtitle": "可选",
-  "quest.island_tier_7/t7_end_stone.title": "末地石",
+  "quest.island_tier_7/t7_end_stone.subtitle": "Optional",
+  "quest.island_tier_7/t7_end_stone.title": "End Stone",
   "quest.island_tier_7/t7_endermen.description": [
-    "末影人生活在末地和下界的诡异森林。"
+    "Endermen live in the End and in warped forests of the Nether."
   ],
-  "quest.island_tier_7/t7_endermen.subtitle": "主要目标",
-  "quest.island_tier_7/t7_endermen.title": "末影珍珠",
+  "quest.island_tier_7/t7_endermen.subtitle": "Main objective",
+  "quest.island_tier_7/t7_endermen.title": "Ender Pearls",
   "quest.island_tier_7/t7_netherite.description": [
-    "四个碎片和四个金锭。"
+    "Four scraps and four gold ingots."
   ],
-  "quest.island_tier_7/t7_netherite.subtitle": "可选",
-  "quest.island_tier_7/t7_netherite.title": "下界合金",
+  "quest.island_tier_7/t7_netherite.subtitle": "Optional",
+  "quest.island_tier_7/t7_netherite.title": "Netherite",
   "quest.island_tier_7/t7_steeleaf.description": [
-    "活根（暮色森林的根）、粗铁和金粒合成粗铁木；再烧炼。"
+    "Liveroot (Twilight Forest roots), raw iron and a gold nugget make raw ironwood; smelt it."
   ],
-  "quest.island_tier_7/t7_steeleaf.subtitle": "可选",
-  "quest.island_tier_7/t7_steeleaf.title": "铁木",
+  "quest.island_tier_7/t7_steeleaf.subtitle": "Optional",
+  "quest.island_tier_7/t7_steeleaf.title": "Ironwood",
   "quest.island_tier_7/t7_undergarden.description": [
-    "世界之下的黑暗世界。带上光源。"
+    "A dark world under the world. Bring light."
   ],
-  "quest.island_tier_7/t7_undergarden.subtitle": "可选",
-  "quest.island_tier_7/t7_undergarden.title": "幽暗地底",
+  "quest.island_tier_7/t7_undergarden.subtitle": "Optional",
+  "quest.island_tier_7/t7_undergarden.title": "The Undergarden",
   "quest.island_tier_7/t7_wither_skeletons.description": [
-    "它们守卫下界要塞，偶尔掉落头颅（抢夺有帮助）。下一次扩张会送你召唤凋灵所需的三个头颅。"
+    "They guard Nether fortresses and sometimes drop their skull (Looting helps). The next expansion gives you the three skulls the Wither needs."
   ],
-  "quest.island_tier_7/t7_wither_skeletons.subtitle": "主要目标",
-  "quest.island_tier_7/t7_wither_skeletons.title": "凋灵骷髅",
+  "quest.island_tier_7/t7_wither_skeletons.subtitle": "Main objective",
+  "quest.island_tier_7/t7_wither_skeletons.title": "Wither Skeletons",
   "quest.island_tier_7/t7_zanite.description": [
-    "天境的蓝色宝石，用于制作其工具。"
+    "The Aether's blue gem, for Aether tools."
   ],
-  "quest.island_tier_7/t7_zanite.subtitle": "可选",
-  "quest.island_tier_7/t7_zanite.title": "紫晶石",
+  "quest.island_tier_7/t7_zanite.subtitle": "Optional",
+  "quest.island_tier_7/t7_zanite.title": "Zanite",
   "quest.island_tier_8/island_tier_8.description": [
-    "完成本章的 4 个必做任务，即可把岛屿边界半径从 72 扩大到 80。",
-    "可选任务提供额外奖励，但绝不会阻碍扩张。",
-    "全队共享扩张后的岛屿。你建造的一切都不会被改动。"
+    "Complete the 4 required quests of this chapter to expand your island border from radius 72 to 80.",
+    "Optional quests give extra rewards but never block an expansion.",
+    "The whole team shares the larger island. Nothing you built is changed."
   ],
-  "quest.island_tier_8/island_tier_8.subtitle": "边界半径 72 -> 80",
-  "quest.island_tier_8/island_tier_8.title": "岛屿扩张 8",
+  "quest.island_tier_8/island_tier_8.subtitle": "Border radius 72 -> 80",
+  "quest.island_tier_8/island_tier_8.title": "Island Expansion 8",
   "quest.island_tier_8/t8_archmage.description": [
-    "一本学徒法术书、末影珍珠、绿宝石、不死图腾、下界之星和一份荒野贡品。"
+    "An apprentice book, ender pearls, emeralds, a totem of undying, a nether star and a Wilden tribute."
   ],
-  "quest.island_tier_8/t8_archmage.subtitle": "可选",
-  "quest.island_tier_8/t8_archmage.title": "大法师法术书",
+  "quest.island_tier_8/t8_archmage.subtitle": "Optional",
+  "quest.island_tier_8/t8_archmage.title": "Archmage Spell Book",
   "quest.island_tier_8/t8_beacon.description": [
-    "下界之星、黑曜石和玻璃。建造金字塔来获得它的力量。"
+    "A nether star, obsidian and glass. Build a pyramid for its powers."
   ],
-  "quest.island_tier_8/t8_beacon.subtitle": "主要目标",
-  "quest.island_tier_8/t8_beacon.title": "信标",
+  "quest.island_tier_8/t8_beacon.subtitle": "Main objective",
+  "quest.island_tier_8/t8_beacon.title": "Beacon",
   "quest.island_tier_8/t8_digital_miner.description": [
-    "通用机械的终极采矿机器。"
+    "Mekanism's ultimate mining machine."
   ],
-  "quest.island_tier_8/t8_digital_miner.subtitle": "可选",
-  "quest.island_tier_8/t8_digital_miner.title": "数字型采矿机",
+  "quest.island_tier_8/t8_digital_miner.subtitle": "Optional",
+  "quest.island_tier_8/t8_digital_miner.title": "Digital Miner",
   "quest.island_tier_8/t8_elite_circuit.description": [
-    "用强化合金制作的高级电路。"
+    "Advanced circuits with reinforced alloy."
   ],
-  "quest.island_tier_8/t8_elite_circuit.subtitle": "主要目标",
-  "quest.island_tier_8/t8_elite_circuit.title": "精英控制电路",
+  "quest.island_tier_8/t8_elite_circuit.subtitle": "Main objective",
+  "quest.island_tier_8/t8_elite_circuit.title": "Elite Circuit",
   "quest.island_tier_8/t8_naga.description": [
-    "暮色森林的第一个首领住在庭院中。计划在一次 15 分钟的远征内击败它。"
+    "The Twilight Forest's first boss lives in a courtyard. Plan to beat it within one 15-minute expedition."
   ],
-  "quest.island_tier_8/t8_naga.subtitle": "可选",
-  "quest.island_tier_8/t8_naga.title": "娜迦",
+  "quest.island_tier_8/t8_naga.subtitle": "Optional",
+  "quest.island_tier_8/t8_naga.title": "The Naga",
   "quest.island_tier_8/t8_nether_star.description": [
-    "凋灵的战利品。"
+    "The Wither's trophy."
   ],
-  "quest.island_tier_8/t8_nether_star.subtitle": "主要目标",
-  "quest.island_tier_8/t8_nether_star.title": "下界之星",
+  "quest.island_tier_8/t8_nether_star.subtitle": "Main objective",
+  "quest.island_tier_8/t8_nether_star.title": "Nether Star",
   "quest.island_tier_8/t8_nitro.description": [
-    "用红石和炽热水晶为下界之星充能。"
+    "A nether star energized with redstone and blazing crystals."
   ],
-  "quest.island_tier_8/t8_nitro.subtitle": "可选",
-  "quest.island_tier_8/t8_nitro.title": "硝基水晶",
+  "quest.island_tier_8/t8_nitro.subtitle": "Optional",
+  "quest.island_tier_8/t8_nitro.title": "Nitro Crystals",
   "quest.island_tier_8/t8_refined_obsidian.description": [
-    "在锇压缩机中压缩。"
+    "Compressed in an osmium compressor."
   ],
-  "quest.island_tier_8/t8_refined_obsidian.subtitle": "可选",
-  "quest.island_tier_8/t8_refined_obsidian.title": "精炼黑曜石",
+  "quest.island_tier_8/t8_refined_obsidian.subtitle": "Optional",
+  "quest.island_tier_8/t8_refined_obsidian.title": "Refined Obsidian",
   "quest.island_tier_8/t8_supremium.description": [
-    "神秘农业的终极精华：下级 -> 中级 -> 上级 -> 高级 -> 究极，每一步都需要灌注水晶。",
-    "灌注水晶需要繁荣碎片：来自单方块的工程阶段，或远征时的下界繁荣矿石。"
+    "The top Mystical Agriculture essence: Inferium -> Prudentium -> Tertium -> Imperium -> Supremium, each step with an infusion crystal.",
+    "Infusion crystals need prosperity shards: OneBlock Engineering phase, or Nether prosperity ore on Nether expeditions."
   ],
-  "quest.island_tier_8/t8_supremium.subtitle": "可选",
-  "quest.island_tier_8/t8_supremium.title": "究极精华",
+  "quest.island_tier_8/t8_supremium.subtitle": "Optional",
+  "quest.island_tier_8/t8_supremium.title": "Supremium",
   "quest.island_tier_8/t8_wither.description": [
-    "三个凋灵骷髅头颅放在四个灵魂沙上：上一次扩张已经全部送给你了。在末地或下界与它战斗，绝不要在家里。"
+    "Three wither skeleton skulls on four soul sand: the previous expansion gave you all of them. Fight it in the End or the Nether, never at home."
   ],
-  "quest.island_tier_8/t8_wither.subtitle": "主要目标",
-  "quest.island_tier_8/t8_wither.title": "凋灵",
+  "quest.island_tier_8/t8_wither.subtitle": "Main objective",
+  "quest.island_tier_8/t8_wither.title": "The Wither",
   "quest.lost_beyond_the_portal/become_trapped.description": [
-    "在某个维度停留超过你的 15 分钟：你的归途传送门会变成哭泣的黑曜石，附近会出现一道休眠的维度裂隙。被困期间，传送命令会被封锁。"
+    "Stay in a realm past your 15 minutes: your Return Gateway collapses into crying obsidian and a Dormant Dimensional Fracture appears nearby. Teleport commands are blocked while you are trapped."
   ],
-  "quest.lost_beyond_the_portal/become_trapped.title": "维度连接中断",
+  "quest.lost_beyond_the_portal/become_trapped.subtitle": "Stranded when the return route collapses",
+  "quest.lost_beyond_the_portal/become_trapped.title": "Dimensional Connection Lost",
   "quest.lost_beyond_the_portal/escape_rift.description": [
-    "进入已稳定的裂隙，回到你的岛屿。"
+    "Step into the stabilized fracture to return to your island."
   ],
-  "quest.lost_beyond_the_portal/escape_rift.title": "穿过裂隙逃生",
+  "quest.lost_beyond_the_portal/escape_rift.subtitle": "Return home through a repaired fracture",
+  "quest.lost_beyond_the_portal/escape_rift.title": "Escape Beyond the Rift",
   "quest.lost_beyond_the_portal/repair_fracture.description": [
-    "用裂隙罗盘找到裂隙。裂隙守卫环绕着它：每名守卫掉落 2 个维度碎片。手持碎片右键点击裂隙（根据岛屿需要 4 个或更多）即可稳定它。"
+    "Find the fracture with your Rift Compass. Rift Guardians gather around it: each drops 2 Dimensional Fragments. Right-click the fracture with fragments (4 or more, depending on your island) to stabilize it."
   ],
-  "quest.lost_beyond_the_portal/repair_fracture.title": "稳定维度裂隙",
+  "quest.lost_beyond_the_portal/repair_fracture.subtitle": "Charge the dormant rift with 4 fragments",
+  "quest.lost_beyond_the_portal/repair_fracture.title": "Stabilize the Dimensional Fracture",
   "quest.magic_and_technology/arcane_enchanting.description": [
-    "钻石、黑曜石和一本书可合成附魔台。"
+    "Diamonds, obsidian and a book make an Enchanting Table."
   ],
-  "quest.magic_and_technology/arcane_enchanting.title": "奥术铭刻",
+  "quest.magic_and_technology/arcane_enchanting.subtitle": "Construct an Enchanting Table",
+  "quest.magic_and_technology/arcane_enchanting.title": "Arcane Inscription",
   "quest.magic_and_technology/expedition_kit.description": [
-    "随身带些维度碎片，裂隙就不会困住你太久。"
+    "Keep Dimensional Fragments with you so a fracture never holds you for long."
   ],
-  "quest.magic_and_technology/expedition_kit.title": "远征工具包",
+  "quest.magic_and_technology/expedition_kit.subtitle": "Stockpile Dimensional Fragments",
+  "quest.magic_and_technology/expedition_kit.title": "Expedition Preparation Kit",
   "quest.the_dimensional_gateway/enter_gateway.description": [
-    "在传送门开启时进入它。从你进入起你有 15 分钟；抵达时会有一座归途传送门等着你。",
-    "年轻的岛屿会前往较温和的维度；岛屿成长后才会开放更严酷的维度（见 /dc status）。"
+    "Step into the gateway while it is open. You have 15 minutes from your entry; a Return Gateway waits where you arrive.",
+    "Young islands go to gentle realms; harsher ones open as your island expands (see /dc status)."
   ],
-  "quest.the_dimensional_gateway/enter_gateway.title": "跨过门槛",
+  "quest.the_dimensional_gateway/enter_gateway.subtitle": "Begin your first timed expedition",
+  "quest.the_dimensional_gateway/enter_gateway.title": "Step Through the Threshold",
   "quest.the_dimensional_gateway/interdimensional_spoils.description": [
-    "维度碎片是你回家的路：只有裂隙周围的裂隙守卫会掉落它们。你也可以用石英、紫水晶和萤石粉合成。留几个备用：它们能修复裂隙。"
+    "Dimensional Fragments are your way home: only the Rift Guardians around a fracture drop them. You can also craft them from quartz, amethyst and glowstone. Keep a few: they repair fractures."
   ],
-  "quest.the_dimensional_gateway/interdimensional_spoils.title": "跨维度战利品",
+  "quest.the_dimensional_gateway/interdimensional_spoils.subtitle": "Harvest resources from beyond the rift",
+  "quest.the_dimensional_gateway/interdimensional_spoils.title": "Interdimensional Spoils",
   "quest.the_dimensional_gateway/return_safely.description": [
-    "在你的 15 分钟用完前使用归途传送门。远征时，面板会显示“归途传送门：”。"
+    "Use your Return Gateway before your 15 minutes run out. The panel shows \"Return portal:\" during an expedition."
   ],
-  "quest.the_dimensional_gateway/return_safely.title": "与时间赛跑",
+  "quest.the_dimensional_gateway/return_safely.subtitle": "Return before your personal gateway collapses",
+  "quest.the_dimensional_gateway/return_safely.title": "Beat the Clock",
   "quest.the_void/attune_compass.description": [
-    "制作一个裂隙罗盘。右键：它会显示传送门通往何处、归途传送门的位置，或被困时裂隙的位置。"
+    "Craft a Rift Compass. Right-click it: it tells where your gateway leads, where your return gateway is, or where the fracture is when you are trapped."
   ],
-  "quest.the_void/attune_compass.title": "校准裂隙罗盘",
+  "quest.the_void/attune_compass.subtitle": "Track the gateway and dimensional fractures",
+  "quest.the_void/attune_compass.title": "Attune the Rift Compass",
   "quest.the_void/awakening.description": [
-    "欢迎来到维度混沌。你的岛屿从一个单方块开始；附近发光的传送门每 15 分钟通往一个新维度。",
-    "跟随“岛屿扩张”章节让岛屿成长；这条剧情线会一路为你讲解规则。"
+    "Welcome to Dimensional Chaos. Your island starts as one OneBlock; the glowing gateway nearby opens to another realm every 15 minutes.",
+    "Follow the \"Island Expansion\" chapters to grow your island; this story line explains the rules along the way."
   ],
-  "quest.the_void/awakening.subtitle": "你在深渊之上的家园",
-  "quest.the_void/awakening.title": "在虚空中醒来",
+  "quest.the_void/awakening.subtitle": "Your home above the abyss",
+  "quest.the_void/awakening.title": "Awakening in the Void",
   "quest.the_void/timber_and_stone.description": [
-    "挖掘单方块，获得你的第一批原木和圆石。"
+    "Mine the OneBlock for your first logs and cobblestone."
   ],
-  "quest.the_void/timber_and_stone.title": "第一块木头，第一块石头",
+  "quest.the_void/timber_and_stone.subtitle": "Renewable wood and stone in the void",
+  "quest.the_void/timber_and_stone.title": "First Timber & Stone",
   "quest.the_void/void_farming.description": [
-    "单方块的干草块会掉落小麦和种子。在泥土上开垦一小块农田并浇水。"
+    "Hay bales from the OneBlock give wheat and seeds. Plant a small farm on dirt and water it."
   ],
-  "quest.the_void/void_farming.title": "虚空农耕",
-  "task.automation/auto_crafter.0.title": "自动合成",
-  "task.automation/iron_production.0.title": "冶炼与漏斗",
-  "task.automation/iron_production.1.title": "冶炼与漏斗",
-  "task.dimensional_explorer/crimson_and_warped.0.title": "下界群系的宝藏",
-  "task.dimensional_explorer/crimson_and_warped.1.title": "下界群系的宝藏",
-  "task.dimensional_explorer/end_expedition.0.title": "末地虚空",
-  "task.dimensional_explorer/end_expedition.1.title": "末地虚空",
-  "task.dimensional_explorer/nether_expedition.0.title": "下界要塞与烈焰棒",
-  "task.dimensional_explorer/nether_expedition.1.title": "下界要塞与烈焰棒",
-  "task.dimensional_mastery/master_of_chaos.0.title": "维度混沌大师",
-  "task.dimensional_mastery/slay_dragon.0.title": "末地征服者",
-  "task.island_tier_1/island_tier_1.0.title": "扩张岛屿",
-  "task.island_tier_1/t1_bread.0.title": "每日面包",
-  "task.island_tier_1/t1_bricks.0.title": "从黏土到砖",
-  "task.island_tier_1/t1_bridge.0.title": "通往传送门的桥",
-  "task.island_tier_1/t1_coal.0.title": "燃料",
-  "task.island_tier_1/t1_copper.0.title": "第一种金属",
-  "task.island_tier_1/t1_enter_gateway.0.title": "穿过传送门",
-  "task.island_tier_1/t1_first_logs.0.title": "第一批原木",
-  "task.island_tier_1/t1_furnace.0.title": "虚空中的火",
-  "task.island_tier_1/t1_moss.0.title": "绿色的地面",
-  "task.island_tier_1/t1_return_home.0.title": "及时回家",
-  "task.island_tier_1/t1_saplings.0.title": "第二棵树",
-  "task.island_tier_1/t1_stone_pick.0.title": "石制工具",
-  "task.island_tier_2/island_tier_2.0.title": "扩张岛屿",
-  "task.island_tier_2/t2_bed.0.title": "真正的床",
-  "task.island_tier_2/t2_bucket.0.title": "一个桶",
-  "task.island_tier_2/t2_composter.0.title": "堆肥",
-  "task.island_tier_2/t2_iron.0.title": "铁储备",
-  "task.island_tier_2/t2_iron_pick.0.title": "铁镐",
-  "task.island_tier_2/t2_melons.0.title": "一块西瓜地",
-  "task.island_tier_2/t2_shield.0.title": "举起盾牌",
-  "task.island_tier_2/t2_skeletons.0.title": "弓箭手",
-  "task.island_tier_2/t2_spiders.0.title": "线",
-  "task.island_tier_2/t2_sponge.0.title": "干海绵",
-  "task.island_tier_2/t2_twilight.0.title": "走进暮色",
-  "task.island_tier_2/t2_zombies.0.title": "守夜",
-  "task.island_tier_3/island_tier_3.0.title": "扩张岛屿",
-  "task.island_tier_3/t3_blazes.0.title": "烈焰棒",
-  "task.island_tier_3/t3_books.0.title": "书",
-  "task.island_tier_3/t3_diamonds.0.title": "钻石",
-  "task.island_tier_3/t3_enchanting.0.title": "附魔台",
-  "task.island_tier_3/t3_farmland.0.title": "强化土壤",
-  "task.island_tier_3/t3_gold.0.title": "金",
-  "task.island_tier_3/t3_inferium.0.title": "下级精华",
-  "task.island_tier_3/t3_inferium_seeds.0.title": "下级种子",
-  "task.island_tier_3/t3_nether.0.title": "下界",
-  "task.island_tier_3/t3_obsidian.0.title": "黑曜石",
-  "task.island_tier_3/t3_quartz.0.title": "下界石英",
-  "task.island_tier_4/island_tier_4.0.title": "扩张岛屿",
-  "task.island_tier_4/t4_andesite_alloy.0.title": "安山合金",
-  "task.island_tier_4/t4_basin.0.title": "工作盆",
-  "task.island_tier_4/t4_brass.0.title": "黄铜",
-  "task.island_tier_4/t4_cogs.0.title": "齿轮",
-  "task.island_tier_4/t4_fan.0.title": "鼓风机",
-  "task.island_tier_4/t4_mechanism.0.title": "精密构件",
-  "task.island_tier_4/t4_millstone.0.title": "石磨",
-  "task.island_tier_4/t4_mixer.0.title": "动力搅拌器",
-  "task.island_tier_4/t4_press.0.title": "动力辊压机",
-  "task.island_tier_4/t4_shafts.0.title": "传动杆",
-  "task.island_tier_4/t4_water_wheel.0.title": "水车",
-  "task.island_tier_4/t4_zinc.0.title": "锌",
-  "task.island_tier_5/island_tier_5.0.title": "扩张岛屿",
-  "task.island_tier_5/t5_aether.0.title": "天境",
-  "task.island_tier_5/t5_apparatus.0.title": "附魔装置",
-  "task.island_tier_5/t5_arcane_essence.0.title": "共鸣护符",
-  "task.island_tier_5/t5_archwood.0.title": "魔木",
-  "task.island_tier_5/t5_imbuement.0.title": "灌注室",
-  "task.island_tier_5/t5_inscription.0.title": "铭文台",
-  "task.island_tier_5/t5_lapis.0.title": "青金石",
-  "task.island_tier_5/t5_scribe.0.title": "抄写台",
-  "task.island_tier_5/t5_source_gems.0.title": "魔源宝石",
-  "task.island_tier_5/t5_source_jar.0.title": "魔源罐",
-  "task.island_tier_5/t5_sourcelink.0.title": "农业魔源链接器",
-  "task.island_tier_5/t5_spell_book.0.title": "新手法术书",
-  "task.island_tier_5/t5_undergarden.0.title": "地下世界",
-  "task.island_tier_6/island_tier_6.0.title": "扩张岛屿",
-  "task.island_tier_6/t6_cables.0.title": "通用线缆",
-  "task.island_tier_6/t6_circuits.0.title": "基础控制电路",
-  "task.island_tier_6/t6_crusher.0.title": "粉碎机",
-  "task.island_tier_6/t6_energized_steel.0.title": "充能钢",
-  "task.island_tier_6/t6_energy_cube.0.title": "能量立方",
-  "task.island_tier_6/t6_enrichment.0.title": "富集仓",
-  "task.island_tier_6/t6_furnator.0.title": "燃料发电机",
-  "task.island_tier_6/t6_infuser.0.title": "冶金灌注机",
-  "task.island_tier_6/t6_mining.0.title": "采矿世界",
-  "task.island_tier_6/t6_orb.0.title": "充能球",
-  "task.island_tier_6/t6_osmium.0.title": "锇",
-  "task.island_tier_6/t6_steel.0.title": "钢",
-  "task.island_tier_6/t6_uraninite.0.title": "晶质铀矿",
-  "task.island_tier_7/island_tier_7.0.title": "扩张岛屿",
-  "task.island_tier_7/t7_cloggrum.0.title": "木铁",
-  "task.island_tier_7/t7_debris.0.title": "远古残骸",
-  "task.island_tier_7/t7_end.0.title": "末地",
-  "task.island_tier_7/t7_end_stone.0.title": "末地石",
-  "task.island_tier_7/t7_endermen.0.title": "末影珍珠",
-  "task.island_tier_7/t7_netherite.0.title": "下界合金",
-  "task.island_tier_7/t7_steeleaf.0.title": "铁木",
-  "task.island_tier_7/t7_undergarden.0.title": "幽暗地底",
-  "task.island_tier_7/t7_wither_skeletons.0.title": "凋灵骷髅",
-  "task.island_tier_7/t7_zanite.0.title": "紫晶石",
-  "task.island_tier_8/island_tier_8.0.title": "扩张岛屿",
-  "task.island_tier_8/t8_archmage.0.title": "大法师法术书",
-  "task.island_tier_8/t8_beacon.0.title": "信标",
-  "task.island_tier_8/t8_digital_miner.0.title": "数字型采矿机",
-  "task.island_tier_8/t8_elite_circuit.0.title": "精英控制电路",
-  "task.island_tier_8/t8_naga.0.title": "娜迦",
-  "task.island_tier_8/t8_nether_star.0.title": "下界之星",
-  "task.island_tier_8/t8_nitro.0.title": "硝基水晶",
-  "task.island_tier_8/t8_refined_obsidian.0.title": "精炼黑曜石",
-  "task.island_tier_8/t8_supremium.0.title": "究极精华",
-  "task.island_tier_8/t8_wither.0.title": "凋灵",
-  "task.lost_beyond_the_portal/become_trapped.0.title": "维度连接中断",
-  "task.lost_beyond_the_portal/escape_rift.0.title": "穿过裂隙逃生",
-  "task.lost_beyond_the_portal/repair_fracture.0.title": "稳定维度裂隙",
-  "task.magic_and_technology/arcane_enchanting.0.title": "奥术铭刻",
-  "task.magic_and_technology/expedition_kit.0.title": "远征工具包",
-  "task.the_dimensional_gateway/enter_gateway.0.title": "跨过门槛",
-  "task.the_dimensional_gateway/interdimensional_spoils.0.title": "跨维度战利品",
-  "task.the_dimensional_gateway/return_safely.0.title": "与时间赛跑",
-  "task.the_void/attune_compass.0.title": "校准裂隙罗盘",
-  "task.the_void/awakening.0.title": "在虚空中醒来",
-  "task.the_void/timber_and_stone.0.title": "第一块木头，第一块石头",
-  "task.the_void/timber_and_stone.1.title": "第一块木头，第一块石头",
-  "task.the_void/void_farming.0.title": "虚空农耕"
+  "quest.the_void/void_farming.subtitle": "Cultivate crops before entering the gateway",
+  "quest.the_void/void_farming.title": "Sustenance in the Void",
+  "task.automation/auto_crafter.0.title": "Automated Crafting",
+  "task.automation/iron_production.0.title": "Metallurgy & Hoppers",
+  "task.automation/iron_production.1.title": "Metallurgy & Hoppers",
+  "task.dimensional_explorer/crimson_and_warped.0.title": "Spoils of the Nether Biomes",
+  "task.dimensional_explorer/crimson_and_warped.1.title": "Spoils of the Nether Biomes",
+  "task.dimensional_explorer/end_expedition.0.title": "Void of the End",
+  "task.dimensional_explorer/end_expedition.1.title": "Void of the End",
+  "task.dimensional_explorer/nether_expedition.0.title": "Nether Fortress & Blazing Rods",
+  "task.dimensional_explorer/nether_expedition.1.title": "Nether Fortress & Blazing Rods",
+  "task.dimensional_mastery/master_of_chaos.0.title": "Master of Dimensional Chaos",
+  "task.dimensional_mastery/slay_dragon.0.title": "Conqueror of the End",
+  "task.island_tier_1/island_tier_1.0.title": "Expand the island",
+  "task.island_tier_1/t1_bread.0.title": "Daily Bread",
+  "task.island_tier_1/t1_bricks.0.title": "Clay into Brick",
+  "task.island_tier_1/t1_bridge.0.title": "Bridge to the Gateway",
+  "task.island_tier_1/t1_coal.0.title": "Fuel",
+  "task.island_tier_1/t1_copper.0.title": "First Metal",
+  "task.island_tier_1/t1_enter_gateway.0.title": "Through the Gateway",
+  "task.island_tier_1/t1_first_logs.0.title": "First Logs",
+  "task.island_tier_1/t1_furnace.0.title": "Fire in the Void",
+  "task.island_tier_1/t1_moss.0.title": "Green Ground",
+  "task.island_tier_1/t1_return_home.0.title": "Home in Time",
+  "task.island_tier_1/t1_saplings.0.title": "A Second Tree",
+  "task.island_tier_1/t1_stone_pick.0.title": "Stone Tools",
+  "task.island_tier_2/island_tier_2.0.title": "Expand the island",
+  "task.island_tier_2/t2_bed.0.title": "A Real Bed",
+  "task.island_tier_2/t2_bucket.0.title": "A Bucket",
+  "task.island_tier_2/t2_composter.0.title": "Compost",
+  "task.island_tier_2/t2_iron.0.title": "Iron Supply",
+  "task.island_tier_2/t2_iron_pick.0.title": "Iron Pickaxe",
+  "task.island_tier_2/t2_melons.0.title": "Melon Patch",
+  "task.island_tier_2/t2_shield.0.title": "Raise a Shield",
+  "task.island_tier_2/t2_skeletons.0.title": "Archers",
+  "task.island_tier_2/t2_spiders.0.title": "String",
+  "task.island_tier_2/t2_sponge.0.title": "Dry Sponge",
+  "task.island_tier_2/t2_twilight.0.title": "Into the Twilight",
+  "task.island_tier_2/t2_zombies.0.title": "Night Watch",
+  "task.island_tier_3/island_tier_3.0.title": "Expand the island",
+  "task.island_tier_3/t3_blazes.0.title": "Blaze Rods",
+  "task.island_tier_3/t3_books.0.title": "Books",
+  "task.island_tier_3/t3_diamonds.0.title": "Diamonds",
+  "task.island_tier_3/t3_enchanting.0.title": "Enchanting Table",
+  "task.island_tier_3/t3_farmland.0.title": "Enriched Soil",
+  "task.island_tier_3/t3_gold.0.title": "Gold",
+  "task.island_tier_3/t3_inferium.0.title": "Inferium",
+  "task.island_tier_3/t3_inferium_seeds.0.title": "Inferium Seeds",
+  "task.island_tier_3/t3_nether.0.title": "The Nether",
+  "task.island_tier_3/t3_obsidian.0.title": "Obsidian",
+  "task.island_tier_3/t3_quartz.0.title": "Nether Quartz",
+  "task.island_tier_4/island_tier_4.0.title": "Expand the island",
+  "task.island_tier_4/t4_andesite_alloy.0.title": "Andesite Alloy",
+  "task.island_tier_4/t4_basin.0.title": "Basin",
+  "task.island_tier_4/t4_brass.0.title": "Brass",
+  "task.island_tier_4/t4_cogs.0.title": "Cogwheels",
+  "task.island_tier_4/t4_fan.0.title": "Encased Fan",
+  "task.island_tier_4/t4_mechanism.0.title": "Precision Mechanism",
+  "task.island_tier_4/t4_millstone.0.title": "Millstone",
+  "task.island_tier_4/t4_mixer.0.title": "Mechanical Mixer",
+  "task.island_tier_4/t4_press.0.title": "Mechanical Press",
+  "task.island_tier_4/t4_shafts.0.title": "Shafts",
+  "task.island_tier_4/t4_water_wheel.0.title": "Water Wheel",
+  "task.island_tier_4/t4_zinc.0.title": "Zinc",
+  "task.island_tier_5/island_tier_5.0.title": "Expand the island",
+  "task.island_tier_5/t5_aether.0.title": "The Aether",
+  "task.island_tier_5/t5_apparatus.0.title": "Enchanting Apparatus",
+  "task.island_tier_5/t5_arcane_essence.0.title": "Resonance Charm",
+  "task.island_tier_5/t5_archwood.0.title": "Archwood",
+  "task.island_tier_5/t5_imbuement.0.title": "Imbuement Chamber",
+  "task.island_tier_5/t5_inscription.0.title": "Inscription Table",
+  "task.island_tier_5/t5_lapis.0.title": "Lapis",
+  "task.island_tier_5/t5_scribe.0.title": "Scribe's Table",
+  "task.island_tier_5/t5_source_gems.0.title": "Source Gems",
+  "task.island_tier_5/t5_source_jar.0.title": "Source Jar",
+  "task.island_tier_5/t5_sourcelink.0.title": "Agronomic Sourcelink",
+  "task.island_tier_5/t5_spell_book.0.title": "Novice Spell Book",
+  "task.island_tier_5/t5_undergarden.0.title": "Under the World",
+  "task.island_tier_6/island_tier_6.0.title": "Expand the island",
+  "task.island_tier_6/t6_cables.0.title": "Universal Cables",
+  "task.island_tier_6/t6_circuits.0.title": "Basic Circuits",
+  "task.island_tier_6/t6_crusher.0.title": "Crusher",
+  "task.island_tier_6/t6_energized_steel.0.title": "Energized Steel",
+  "task.island_tier_6/t6_energy_cube.0.title": "Energy Cube",
+  "task.island_tier_6/t6_enrichment.0.title": "Enrichment Chamber",
+  "task.island_tier_6/t6_furnator.0.title": "Furnator",
+  "task.island_tier_6/t6_infuser.0.title": "Metallurgic Infuser",
+  "task.island_tier_6/t6_mining.0.title": "The Mining World",
+  "task.island_tier_6/t6_orb.0.title": "Energizing Orb",
+  "task.island_tier_6/t6_osmium.0.title": "Osmium",
+  "task.island_tier_6/t6_steel.0.title": "Steel",
+  "task.island_tier_6/t6_uraninite.0.title": "Uraninite",
+  "task.island_tier_7/island_tier_7.0.title": "Expand the island",
+  "task.island_tier_7/t7_cloggrum.0.title": "Cloggrum",
+  "task.island_tier_7/t7_debris.0.title": "Ancient Debris",
+  "task.island_tier_7/t7_end.0.title": "The End",
+  "task.island_tier_7/t7_end_stone.0.title": "End Stone",
+  "task.island_tier_7/t7_endermen.0.title": "Ender Pearls",
+  "task.island_tier_7/t7_netherite.0.title": "Netherite",
+  "task.island_tier_7/t7_steeleaf.0.title": "Ironwood",
+  "task.island_tier_7/t7_undergarden.0.title": "The Undergarden",
+  "task.island_tier_7/t7_wither_skeletons.0.title": "Wither Skeletons",
+  "task.island_tier_7/t7_zanite.0.title": "Zanite",
+  "task.island_tier_8/island_tier_8.0.title": "Expand the island",
+  "task.island_tier_8/t8_archmage.0.title": "Archmage Spell Book",
+  "task.island_tier_8/t8_beacon.0.title": "Beacon",
+  "task.island_tier_8/t8_digital_miner.0.title": "Digital Miner",
+  "task.island_tier_8/t8_elite_circuit.0.title": "Elite Circuit",
+  "task.island_tier_8/t8_naga.0.title": "The Naga",
+  "task.island_tier_8/t8_nether_star.0.title": "Nether Star",
+  "task.island_tier_8/t8_nitro.0.title": "Nitro Crystals",
+  "task.island_tier_8/t8_refined_obsidian.0.title": "Refined Obsidian",
+  "task.island_tier_8/t8_supremium.0.title": "Supremium",
+  "task.island_tier_8/t8_wither.0.title": "The Wither",
+  "task.lost_beyond_the_portal/become_trapped.0.title": "Dimensional Connection Lost",
+  "task.lost_beyond_the_portal/escape_rift.0.title": "Escape Beyond the Rift",
+  "task.lost_beyond_the_portal/repair_fracture.0.title": "Stabilize the Dimensional Fracture",
+  "task.magic_and_technology/arcane_enchanting.0.title": "Arcane Inscription",
+  "task.magic_and_technology/expedition_kit.0.title": "Expedition Preparation Kit",
+  "task.the_dimensional_gateway/enter_gateway.0.title": "Step Through the Threshold",
+  "task.the_dimensional_gateway/interdimensional_spoils.0.title": "Interdimensional Spoils",
+  "task.the_dimensional_gateway/return_safely.0.title": "Beat the Clock",
+  "task.the_void/attune_compass.0.title": "Attune the Rift Compass",
+  "task.the_void/awakening.0.title": "Awakening in the Void",
+  "task.the_void/timber_and_stone.0.title": "First Timber & Stone",
+  "task.the_void/timber_and_stone.1.title": "First Timber & Stone",
+  "task.the_void/void_farming.0.title": "Sustenance in the Void"
 }
