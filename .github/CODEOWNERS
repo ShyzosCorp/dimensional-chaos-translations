@@ -1,0 +1,6 @@
+# Changes to the tooling need the owner's review (Settings > Rules: "Require review from Code Owners").
+/tools/        @Hachig0r0
+/.github/      @Hachig0r0
+/crowdin.yml   @Hachig0r0
+/source/       @Hachig0r0
+/CODEOWNERS    @Hachig0r0
