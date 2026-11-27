@@ -1,6 +1,6 @@
 {
   "book.subtitle": "Survivez au vide. Bravez le portail tournant. Agrandissez votre île.",
-  "book.title": "Dimensional Chaos",
+  "book.title": "",
   "chapter.automation.description": [
     "Agrandissez votre île Skyblock grâce au traitement automatique des ressources, aux mécanismes de redstone et au stockage."
   ],
@@ -264,7 +264,7 @@
     "Transforme les graines et pousses en trop en poudre d’os."
   ],
   "quest.island_tier_2/t2_composter.subtitle": "Optionnelle",
-  "quest.island_tier_2/t2_composter.title": "Compost",
+  "quest.island_tier_2/t2_composter.title": "",
   "quest.island_tier_2/t2_iron.description": [
     "Le minerai de fer apparaît en phase Survie. Minez-le avec une pioche en pierre et faites-le cuire."
   ],
@@ -358,7 +358,7 @@
     "Chaque monstre a 20 % de chances de lâcher de l’Essence d’Inferium, la base de Mystical Agriculture."
   ],
   "quest.island_tier_3/t3_inferium.subtitle": "Objectif principal",
-  "quest.island_tier_3/t3_inferium.title": "Inferium",
+  "quest.island_tier_3/t3_inferium.title": "",
   "quest.island_tier_3/t3_inferium_seeds.description": [
     "8 Essences d’Inferium autour de graines de blé. Plantées sur de la terre labourée, elles produisent d’elles-mêmes plus d’essence.",
     "Les meilleures graines et essences demandent des fragments de prospérité : le minerai de prospérité apparaît en phase Ingénierie du OneBlock (palier 3, ou 512 blocs) et dans le Nether (minerai de prospérité du Nether).",
@@ -452,7 +452,7 @@
     "Le minerai de zinc apparaît dans la phase Ingénierie du OneBlock : elle commence quand votre île atteint le palier 3 (ou après 512 blocs)."
   ],
   "quest.island_tier_4/t4_zinc.subtitle": "Objectif principal",
-  "quest.island_tier_4/t4_zinc.title": "Zinc",
+  "quest.island_tier_4/t4_zinc.title": "",
   "quest.island_tier_5/island_tier_5.description": [
     "Terminez les 5 quêtes obligatoires de ce chapitre pour faire passer la bordure de votre île du rayon 48 à 56.",
     "Les quêtes optionnelles donnent des récompenses en plus mais ne bloquent jamais un agrandissement.",
@@ -591,7 +591,7 @@
     "Le minerai d’osmium apparaît dans la phase Industrie du OneBlock (palier 5, ou 4096 blocs), ou au tamis. Cet agrandissement vous en offre quatre lingots."
   ],
   "quest.island_tier_6/t6_osmium.subtitle": "Objectif principal",
-  "quest.island_tier_6/t6_osmium.title": "Osmium",
+  "quest.island_tier_6/t6_osmium.title": "",
   "quest.island_tier_6/t6_steel.description": [
     "Du fer infusé avec du carbone (charbon ou charbon de bois)."
   ],
@@ -601,7 +601,7 @@
     "L’uraninite de Powah apparaît en phase Industrie."
   ],
   "quest.island_tier_6/t6_uraninite.subtitle": "Optionnelle",
-  "quest.island_tier_6/t6_uraninite.title": "Uraninite",
+  "quest.island_tier_6/t6_uraninite.title": "",
   "quest.island_tier_7/island_tier_7.description": [
     "Terminez les 4 quêtes obligatoires de ce chapitre pour faire passer la bordure de votre île du rayon 64 à 72.",
     "Les quêtes optionnelles donnent des récompenses en plus mais ne bloquent jamais un agrandissement.",
@@ -613,7 +613,7 @@
     "Le métal courant de l’Undergarden."
   ],
   "quest.island_tier_7/t7_cloggrum.subtitle": "Optionnelle",
-  "quest.island_tier_7/t7_cloggrum.title": "Cloggrum",
+  "quest.island_tier_7/t7_cloggrum.title": "",
   "quest.island_tier_7/t7_debris.description": [
     "Profondément dans le Nether ; résiste aux explosions."
   ],
@@ -639,7 +639,7 @@
     "Obligatoire : le chef-d’œuvre de cet agrandissement."
   ],
   "quest.island_tier_7/t7_netherite.subtitle": "Objectif principal",
-  "quest.island_tier_7/t7_netherite.title": "Netherite",
+  "quest.island_tier_7/t7_netherite.title": "",
   "quest.island_tier_7/t7_steeleaf.description": [
     "Racine vivante (racines de la Forêt du Crépuscule), fer brut et pépite d’or donnent du bois de fer brut ; faites-le cuire."
   ],
@@ -660,7 +660,7 @@
     "La gemme bleue de l’Aether, pour ses outils."
   ],
   "quest.island_tier_7/t7_zanite.subtitle": "Optionnelle",
-  "quest.island_tier_7/t7_zanite.title": "Zanite",
+  "quest.island_tier_7/t7_zanite.title": "",
   "quest.island_tier_8/island_tier_8.description": [
     "Terminez les 4 quêtes obligatoires de ce chapitre pour faire passer la bordure de votre île du rayon 72 à 80.",
     "Les quêtes optionnelles donnent des récompenses en plus mais ne bloquent jamais un agrandissement.",
@@ -714,7 +714,7 @@
     "Les cristaux d’infusion demandent des fragments de prospérité : phase Ingénierie du OneBlock, ou minerai de prospérité du Nether en expédition."
   ],
   "quest.island_tier_8/t8_supremium.subtitle": "Optionnelle",
-  "quest.island_tier_8/t8_supremium.title": "Supremium",
+  "quest.island_tier_8/t8_supremium.title": "",
   "quest.island_tier_8/t8_wither.description": [
     "Trois crânes de squelette wither sur quatre sables des âmes : l’agrandissement précédent vous les a tous donnés. Combattez-le dans l’End ou le Nether, jamais chez vous."
   ],
