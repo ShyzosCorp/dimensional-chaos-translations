@@ -7,6 +7,9 @@ name: Check translations
 #   itself needs the owner's label l10n:tooling-change, never granted on a Crowdin branch (l10n_*).
 # - A label counts only when its latest "labeled" event was made by one of the logins in the repository
 #   variable L10N_OWNERS (Settings > Secrets and variables > Actions > Variables). Unset: no label counts.
+# - On a push to main, the labels and branch are those of the pull request whose merge commit is the pushed
+#   commit, so an approved merge is not reported as a failure afterwards. A direct push has no pull request:
+#   no label counts, and any tooling, source or removal change in it fails.
 # - Anything that cannot be read (base commit, script at the base, label events) fails the check.
 # - The owner makes "check" a required status check on main (Settings > Rules), with CODEOWNERS review
 #   for tools/, .github/ and crowdin.yml, so a skipped or failed check blocks the merge.
@@ -52,13 +55,38 @@ jobs:
           if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then base=""; fi
           echo "sha=$base" >> "$GITHUB_OUTPUT"
 
+      - name: Pull request of a push to main
+        id: merged
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          # A push to main is normally the merge of a pull request: the check then judges it with that pull
+          # request's owner labels and branch, as it did before the merge. Only a pull request whose merge
+          # commit is exactly this commit counts. A direct push has none: no label counts, as before.
+          # GitHub can take a few seconds to link a fresh merge commit to its pull request.
+          found=""
+          for attempt in 1 2 3 4; do
+            found=$(gh api "repos/$GITHUB_REPOSITORY/commits/$SHA/pulls" \
+              --jq "[.[] | select(.merged_at != null and .merge_commit_sha == \"$SHA\" and .base.ref == \"main\") | \"\(.number) \(.head.ref)\"] | first // empty")
+            [ -n "$found" ] && break
+            sleep 5
+          done
+          number="${found%% *}"
+          branch="${found#* }"
+          echo "number=$number" >> "$GITHUB_OUTPUT"
+          echo "branch=$branch" >> "$GITHUB_OUTPUT"
+          echo "Merged pull request: ${number:-none (direct push: no label counts)}"
+
       - name: Owner labels only
         id: labels
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' || steps.merged.outputs.number != ''
         env:
           GH_TOKEN: ${{ github.token }}
           OWNERS: ${{ vars.L10N_OWNERS }}
-          NUMBER: ${{ github.event.pull_request.number }}
+          NUMBER: ${{ github.event.pull_request.number || steps.merged.outputs.number }}
         run: |
           set -euo pipefail
           # The latest labeled/unlabeled event per label; it counts if it is "labeled" by an owner.
@@ -82,7 +110,7 @@ jobs:
         env:
           BASE: ${{ steps.base.outputs.sha }}
           L10N_LABELS: ${{ steps.labels.outputs.names }}
-          L10N_BRANCH: ${{ github.head_ref }}
+          L10N_BRANCH: ${{ github.head_ref || steps.merged.outputs.branch }}
         run: |
           set -euo pipefail
           if [ -z "$BASE" ]; then
