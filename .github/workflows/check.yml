@@ -1,11 +1,27 @@
 name: Check translations
 
+# Runs on every pull request, Crowdin's included, and on every push to main.
+#
+# - The judge is tools/check.py as it is on the BASE commit, never the copy in the pull request: a pull
+#   request that edits the script (or this workflow) cannot loosen its own check. Changing the tooling
+#   itself needs the owner's label l10n:tooling-change, never granted on a Crowdin branch (l10n_*).
+# - A label counts only when its latest "labeled" event was made by one of the logins in the repository
+#   variable L10N_OWNERS (Settings > Secrets and variables > Actions > Variables). Unset: no label counts.
+# - Anything that cannot be read (base commit, script at the base, label events) fails the check.
+# - The owner makes "check" a required status check on main (Settings > Rules), with CODEOWNERS review
+#   for tools/, .github/ and crowdin.yml, so a skipped or failed check blocks the merge.
+# Nothing here merges, pushes or calls Crowdin.
 on:
   push:
+    branches: [main]
   pull_request:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
+  workflow_dispatch:
 
 permissions:
   contents: read
+  issues: read
+  pull-requests: read
 
 jobs:
   check:
@@ -13,7 +29,66 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: python tools/check.py
+
+      - name: Base commit
+        id: base
+        env:
+          EVENT: ${{ github.event_name }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          case "$EVENT" in
+            pull_request) base="$PR_BASE" ;;
+            push) base="$BEFORE" ;;
+            *) base="" ;;
+          esac
+          # A new branch or a manual run has no base: the files are checked on their own.
+          if [ -z "$base" ] || [ "$base" = "0000000000000000000000000000000000000000" ]; then base=""; fi
+          echo "sha=$base" >> "$GITHUB_OUTPUT"
+
+      - name: Owner labels only
+        id: labels
+        if: github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          OWNERS: ${{ vars.L10N_OWNERS }}
+          NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          set -euo pipefail
+          # The latest labeled/unlabeled event per label; it counts if it is "labeled" by an owner.
+          gh api --paginate "repos/$GITHUB_REPOSITORY/issues/$NUMBER/events" \
+            --jq '.[] | select(.event == "labeled" or .event == "unlabeled") | [.label.name, .event, .actor.login] | @tsv' \
+            > "$RUNNER_TEMP/label-events.tsv"
+          labels=$(python - "$RUNNER_TEMP/label-events.tsv" <<'EOF'
+          import os, sys
+          owners = {o.strip().lower() for o in os.environ.get('OWNERS', '').split(',') if o.strip()}
+          last = {}
+          for line in open(sys.argv[1], encoding='utf-8'):
+              name, event, actor = line.rstrip('\n').split('\t')
+              last[name] = (event, actor.lower())
+          print(','.join(sorted(n for n, (e, a) in last.items() if e == 'labeled' and a in owners)))
+          EOF
+          )
+          echo "names=$labels" >> "$GITHUB_OUTPUT"
+          echo "Labels applied by the owner: ${labels:-none}"
+
+      - name: Check with the base's own script
+        env:
+          BASE: ${{ steps.base.outputs.sha }}
+          L10N_LABELS: ${{ steps.labels.outputs.names }}
+          L10N_BRANCH: ${{ github.head_ref }}
+        run: |
+          set -euo pipefail
+          if [ -z "$BASE" ]; then
+            python tools/check.py --root "$GITHUB_WORKSPACE"
+            exit 0
+          fi
+          # Fails if the base has no tools/check.py: nothing is compared against a script that is not there.
+          git show "$BASE:tools/check.py" > "$RUNNER_TEMP/check.py"
+          python "$RUNNER_TEMP/check.py" --root "$GITHUB_WORKSPACE" --base "$BASE"

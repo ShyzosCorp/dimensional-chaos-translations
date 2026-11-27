@@ -1,9 +1,27 @@
 # Crowdin GitHub integration: English sources go to Crowdin, translations come back here in a pull request.
 # Minecraft language files are lower case (fr_fr.json, pt_br.json): each Crowdin language is mapped to its game code.
+#
+# Changes from the first version (see reports/localization-20261126):
+#   - skip_untranslated_strings: an untranslated text is left out (or empty) instead of being filled with the
+#     English, which replaced every existing translation in the first Crowdin pull requests;
+#   - export_only_approved stays off: community suggestions that are not approved yet are not exported either way,
+#     because skip_untranslated_strings only keeps texts that have a translation;
+#   - update_option: a small English change keeps the translation (marked for review) instead of deleting it;
+#   - commit_message without [ci skip], so the check runs on Crowdin's pull requests (still required on main).
+# Option names to confirm against Crowdin's current documentation before the switch.
+commit_message: 'New translations %original_file_name% (%language%)'
+append_commit_message: false
+pull_request_title: 'Crowdin: new translations (review before merging)'
+pull_request_labels:
+  - l10n
+  - crowdin
+
 files:
   - source: /source/mod/en_us.json
     translation: /translations/mod/%locale_with_underscore%.json
-    languages_mapping:
+    skip_untranslated_strings: true
+    update_option: update_as_unapproved
+    languages_mapping: &minecraft
       locale_with_underscore:
         fr: fr_fr
         pl: pl_pl
@@ -34,32 +52,6 @@ files:
         no: no_no
   - source: /source/quests/en_us.json
     translation: /translations/quests/%locale_with_underscore%.json
-    languages_mapping:
-      locale_with_underscore:
-        fr: fr_fr
-        pl: pl_pl
-        zh-CN: zh_cn
-        zh-TW: zh_tw
-        de: de_de
-        es-ES: es_es
-        es-MX: es_mx
-        it: it_it
-        pt-BR: pt_br
-        pt-PT: pt_pt
-        ru: ru_ru
-        uk: uk_ua
-        ja: ja_jp
-        ko: ko_kr
-        tr: tr_tr
-        nl: nl_nl
-        cs: cs_cz
-        sv-SE: sv_se
-        hu: hu_hu
-        ro: ro_ro
-        vi: vi_vn
-        id: id_id
-        th: th_th
-        ar: ar_sa
-        da: da_dk
-        fi: fi_fi
-        no: no_no
+    skip_untranslated_strings: true
+    update_option: update_as_unapproved
+    languages_mapping: *minecraft
