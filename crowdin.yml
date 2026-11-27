@@ -7,7 +7,9 @@
 #   - export_only_approved stays off: community suggestions that are not approved yet are not exported either way,
 #     because skip_untranslated_strings only keeps texts that have a translation;
 #   - update_option: a small English change keeps the translation (marked for review) instead of deleting it;
-#   - commit_message without [ci skip], so the check runs on Crowdin's pull requests (still required on main).
+#   - commit_message without [ci skip], so the check runs on Crowdin's pull requests (still required on main);
+#   - each file spells out its languages_mapping: Crowdin ignored a YAML alias (*minecraft) on the second file
+#     and named the quest files fr_FR.json instead of fr_fr.json (pull request #6).
 # Option names to confirm against Crowdin's current documentation before the switch.
 commit_message: 'New translations %original_file_name% (%language%)'
 append_commit_message: false
@@ -21,7 +23,7 @@ files:
     translation: /translations/mod/%locale_with_underscore%.json
     skip_untranslated_strings: true
     update_option: update_as_unapproved
-    languages_mapping: &minecraft
+    languages_mapping:
       locale_with_underscore:
         fr: fr_fr
         pl: pl_pl
@@ -54,4 +56,32 @@ files:
     translation: /translations/quests/%locale_with_underscore%.json
     skip_untranslated_strings: true
     update_option: update_as_unapproved
-    languages_mapping: *minecraft
+    languages_mapping:
+      locale_with_underscore:
+        fr: fr_fr
+        pl: pl_pl
+        zh-CN: zh_cn
+        zh-TW: zh_tw
+        de: de_de
+        es-ES: es_es
+        es-MX: es_mx
+        it: it_it
+        pt-BR: pt_br
+        pt-PT: pt_pt
+        ru: ru_ru
+        uk: uk_ua
+        ja: ja_jp
+        ko: ko_kr
+        tr: tr_tr
+        nl: nl_nl
+        cs: cs_cz
+        sv-SE: sv_se
+        hu: hu_hu
+        ro: ro_ro
+        vi: vi_vn
+        id: id_id
+        th: th_th
+        ar: ar_sa
+        da: da_dk
+        fi: fi_fi
+        no: no_no
