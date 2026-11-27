@@ -1,6 +1,6 @@
 {
   "book.subtitle": "Przetrwaj w Pustce. Stawiaj czoła zmiennej bramie. Rozbudowuj swoją wyspę.",
-  "book.title": "Dimensional Chaos",
+  "book.title": "",
   "chapter.automation.description": [
     "Rozwijaj swoją wyspę Skyblock dzięki automatycznemu przetwarzaniu surowców, mechanizmom z redstone'u i magazynom."
   ],
@@ -358,7 +358,7 @@
     "Każdy potwór ma 20% szans na upuszczenie Esencji Inferium, podstawy Mystical Agriculture."
   ],
   "quest.island_tier_3/t3_inferium.subtitle": "Cel główny",
-  "quest.island_tier_3/t3_inferium.title": "Inferium",
+  "quest.island_tier_3/t3_inferium.title": "",
   "quest.island_tier_3/t3_inferium_seeds.description": [
     "8 Esencji Inferium wokół nasion pszenicy. Posadzone na polu uprawnym same wytwarzają kolejną esencję.",
     "Lepsze nasiona i esencje wymagają odłamków prosperytu: ruda prosperytu pojawia się w fazie Inżynieria OneBlocka (rozbudowa wyspy 3 lub 512 bloków), a w Netherze jako netherowa ruda prosperytu.",
@@ -570,7 +570,7 @@
     "Spala paliwo, wytwarzając energię."
   ],
   "quest.island_tier_6/t6_furnator.subtitle": "Opcjonalne",
-  "quest.island_tier_6/t6_furnator.title": "Furnator",
+  "quest.island_tier_6/t6_furnator.title": "",
   "quest.island_tier_6/t6_infuser.description": [
     "Nasyca metale węglem lub redstone'em: stal, stopy i układy."
   ],
@@ -613,7 +613,7 @@
     "Pospolity metal z Undergarden."
   ],
   "quest.island_tier_7/t7_cloggrum.subtitle": "Opcjonalne",
-  "quest.island_tier_7/t7_cloggrum.title": "Cloggrum",
+  "quest.island_tier_7/t7_cloggrum.title": "",
   "quest.island_tier_7/t7_debris.description": [
     "Głęboko w Netherze; odporne na wybuchy."
   ],
@@ -714,7 +714,7 @@
     "Kryształy infuzji wymagają odłamków prosperytu: faza Inżynieria OneBlocka albo netherowa ruda prosperytu na wyprawach do Netheru."
   ],
   "quest.island_tier_8/t8_supremium.subtitle": "Opcjonalne",
-  "quest.island_tier_8/t8_supremium.title": "Supremium",
+  "quest.island_tier_8/t8_supremium.title": "",
   "quest.island_tier_8/t8_wither.description": [
     "Trzy czaszki witherowego szkieleta na czterech blokach piasku dusz: poprzednia rozbudowa dała ci je wszystkie. Walcz z nim w Endzie lub w Netherze, nigdy u siebie."
   ],
