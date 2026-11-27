@@ -19,52 +19,53 @@
   "chapter.island_tier_1.description": [
     "Main objectives (top row) expand your island. Round quests below are optional bonuses.",
     "Tip: pin a quest in the quest book to keep it on screen.",
-    "Expected time: 15-30 min."
+    "Expected time: 30-45 min."
   ],
   "chapter.island_tier_1.subtitle": "Gather your first resources, craft tools and come back from a dimensional expedition.",
   "chapter.island_tier_1.title": "Expansion 1 - First Steps",
   "chapter.island_tier_2.description": [
     "Your gateway now also reaches the Aether. Expeditions get a little more dangerous with each island expansion.",
-    "Expected time: 30-45 min."
+    "Expected time: 45-60 min."
   ],
   "chapter.island_tier_2.subtitle": "Iron tools, a shield and a proper visit to the Twilight Forest.",
   "chapter.island_tier_2.title": "Expansion 2 - Survivor's Island",
   "chapter.island_tier_3.description": [
-    "From now on the gateway can open to the Nether. Bring a shield, food and a bucket.",
-    "Expected time: 45-60 min."
+    "From now on the gateway can open to the Nether. Bring a shield, food and an empty bucket for lava: water evaporates in the Nether.",
+    "Tough As Nails: the Nether is hot. Leaf armour (even one piece) keeps you cool; ice cream helps on long trips.",
+    "Expected time: 60-90 min."
   ],
   "chapter.island_tier_3.subtitle": "The Nether opens to your gateway, and your first magical essences.",
   "chapter.island_tier_3.title": "Expansion 3 - Mystical Roots",
   "chapter.island_tier_4.description": [
     "Create machines run on rotation: a water wheel turns shafts and cogwheels that power your machines.",
-    "Expected time: 60-90 min."
+    "Expected time: 1h30-2h."
   ],
   "chapter.island_tier_4.subtitle": "Create: rotation, the first press and the first machines.",
   "chapter.island_tier_4.title": "Expansion 4 - Gears & Steam",
   "chapter.island_tier_5.description": [
     "Magic mods add spells and enchanting machines. The OneBlock turns arcane: lapis and archwood.",
     "Your gateway now reaches the Undergarden and goes there first while this chapter needs it.",
-    "Expected time: 60-90 min."
+    "Expected time: 1h30-2h."
   ],
   "chapter.island_tier_5.subtitle": "Magic: Ars Nouveau, Iron's Spells and the depths of the Undergarden.",
   "chapter.island_tier_5.title": "Expansion 5 - Arcane Studies",
   "chapter.island_tier_6.description": [
     "Electric machines double your ore output and automate your island. The OneBlock's Industry phase brings osmium and uraninite.",
     "Your gateway now reaches the Mining World and goes there first while this chapter needs it.",
-    "Expected time: 90-120 min."
+    "Expected time: 2-3 h."
   ],
   "chapter.island_tier_6.subtitle": "Mekanism machines, Powah energy and the Mining World.",
   "chapter.island_tier_6.title": "Expansion 6 - Industrial Void",
   "chapter.island_tier_7.description": [
     "The End opens at island tier 6. Your gateway goes first to the End, then to the Nether, while this chapter needs them.",
     "Expeditions are dangerous now: prepare armour, food and fragments.",
-    "Expected time: 2-3 h."
+    "Expected time: 3-4 h."
   ],
   "chapter.island_tier_7.subtitle": "Harsher realms: the End, the Nether's fortresses and the Wither's skulls.",
   "chapter.island_tier_7.title": "Expansion 7 - Beyond the Fracture",
   "chapter.island_tier_8.description": [
     "Warning: summon the Wither far from your island. It destroys blocks.",
-    "Expected time: 2-4 h."
+    "Expected time: 3-5 h."
   ],
   "chapter.island_tier_8.subtitle": "The Wither, a beacon and elite machines.",
   "chapter.island_tier_8.title": "Expansion 8 - Dimensional Mastery",
@@ -99,11 +100,26 @@
   ],
   "quest.automation/auto_crafter.subtitle": "Build a Redstone Crafter",
   "quest.automation/auto_crafter.title": "Automated Crafting",
+  "quest.automation/auto_smelter.description": [
+    "A hopper above the furnace for ore, one on the side for fuel, one below for the ingots: smelting without you."
+  ],
+  "quest.automation/auto_smelter.subtitle": "Hoppers feed the furnace",
+  "quest.automation/auto_smelter.title": "Auto-Smelter",
   "quest.automation/iron_production.description": [
     "Smelt iron from the OneBlock and craft a hopper to start automating."
   ],
   "quest.automation/iron_production.subtitle": "Automate collection and smelting",
   "quest.automation/iron_production.title": "Metallurgy & Hoppers",
+  "quest.automation/redstone_line.description": [
+    "Redstone dust carries 15 blocks; repeaters carry it further and delay it. Enough to power a crafter from a lever."
+  ],
+  "quest.automation/redstone_line.subtitle": "Signals that carry",
+  "quest.automation/redstone_line.title": "Redstone Line",
+  "quest.dimensional_explorer/aether_heights.description": [
+    "When your gateway opens to the Aether, gather ambrosium shards: they fuel Aether furnaces and heal."
+  ],
+  "quest.dimensional_explorer/aether_heights.subtitle": "Floating islands above the clouds",
+  "quest.dimensional_explorer/aether_heights.title": "The Aether Heights",
   "quest.dimensional_explorer/crimson_and_warped.description": [
     "Crying obsidian and glowstone come from ruined portals, bartering with piglins and Nether ceilings."
   ],
@@ -119,18 +135,33 @@
   ],
   "quest.dimensional_explorer/nether_expedition.subtitle": "Brave the Nether during a gateway cycle",
   "quest.dimensional_explorer/nether_expedition.title": "Nether Fortress & Blazing Rods",
+  "quest.dimensional_explorer/undergarden_depths.description": [
+    "When your gateway opens to the Undergarden (island tier 4 or more), mine cloggrum, its common metal."
+  ],
+  "quest.dimensional_explorer/undergarden_depths.subtitle": "The world below the world",
+  "quest.dimensional_explorer/undergarden_depths.title": "Undergarden Depths",
+  "quest.dimensional_mastery/lich_king.description": [
+    "The Lich waits at the top of its tower in the Twilight Forest, after the Naga. Its fight resumes where you left it on your next expedition."
+  ],
+  "quest.dimensional_mastery/lich_king.subtitle": "Twilight Forest's sorcerer",
+  "quest.dimensional_mastery/lich_king.title": "The Lich",
   "quest.dimensional_mastery/master_of_chaos.description": [
     "Defeat the Wither and keep its Nether Star."
   ],
   "quest.dimensional_mastery/master_of_chaos.subtitle": "Claim the Nether Star",
   "quest.dimensional_mastery/master_of_chaos.title": "Master of Dimensional Chaos",
+  "quest.dimensional_mastery/netherite_champion.description": [
+    "Upgrade a diamond chestplate and sword with netherite at a smithing table."
+  ],
+  "quest.dimensional_mastery/netherite_champion.subtitle": "The best armour of the vanilla game",
+  "quest.dimensional_mastery/netherite_champion.title": "Netherite Champion",
   "quest.dimensional_mastery/slay_dragon.description": [
     "When your gateway opens to the End (island tier 6 or more), slay the Ender Dragon. It takes several expeditions: the fight resumes where you left it."
   ],
   "quest.dimensional_mastery/slay_dragon.subtitle": "Defeat the Ender Dragon during an expedition",
   "quest.dimensional_mastery/slay_dragon.title": "Conqueror of the End",
   "quest.island_tier_1/island_tier_1.description": [
-    "Complete the 6 required quests of this chapter to expand your island border from radius 16 to 24.",
+    "Complete the 8 required quests of this chapter to expand your island border from radius 16 to 24.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
@@ -170,7 +201,8 @@
   "quest.island_tier_1/t1_enter_gateway.title": "Through the Gateway",
   "quest.island_tier_1/t1_first_logs.description": [
     "Break the OneBlock under your feet again and again: it comes back each time with a new block.",
-    "Everything it drops goes straight into your inventory. The very first blocks are dirt and four oak logs."
+    "Everything it drops goes straight into your inventory. The very first blocks are dirt and four oak logs.",
+    "Plant one sapling right away: a tree is wood that never runs out."
   ],
   "quest.island_tier_1/t1_first_logs.subtitle": "Main objective",
   "quest.island_tier_1/t1_first_logs.title": "First Logs",
@@ -201,15 +233,25 @@
   ],
   "quest.island_tier_1/t1_stone_pick.subtitle": "Main objective",
   "quest.island_tier_1/t1_stone_pick.title": "Stone Tools",
+  "quest.island_tier_1/t1_storage.description": [
+    "The OneBlock gives a lot: two chests keep it safe, and a crafting table placed on the island saves inventory space."
+  ],
+  "quest.island_tier_1/t1_storage.subtitle": "Main objective",
+  "quest.island_tier_1/t1_storage.title": "A Proper Base",
+  "quest.island_tier_1/t1_twilight_loot.description": [
+    "Young islands go to the Twilight Forest. Hunt its animals and bring back leather and feathers: the island has none."
+  ],
+  "quest.island_tier_1/t1_twilight_loot.subtitle": "Main objective",
+  "quest.island_tier_1/t1_twilight_loot.title": "Spoils of the Twilight",
   "quest.island_tier_2/island_tier_2.description": [
-    "Complete the 4 required quests of this chapter to expand your island border from radius 24 to 32.",
+    "Complete the 5 required quests of this chapter to expand your island border from radius 24 to 32.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
   "quest.island_tier_2/island_tier_2.subtitle": "Border radius 24 -> 32",
   "quest.island_tier_2/island_tier_2.title": "Island Expansion 2",
   "quest.island_tier_2/t2_bed.description": [
-    "A bed sets your spawn point. Sleeping skips the night without changing the dimensional cycle."
+    "A bed sets your spawn point. At night, when enough players sleep, the night is skipped: dawn comes at once with a new destination."
   ],
   "quest.island_tier_2/t2_bed.subtitle": "Optional",
   "quest.island_tier_2/t2_bed.title": "A Real Bed",
@@ -233,13 +275,19 @@
   ],
   "quest.island_tier_2/t2_iron_pick.subtitle": "Main objective",
   "quest.island_tier_2/t2_iron_pick.title": "Iron Pickaxe",
+  "quest.island_tier_2/t2_lights.description": [
+    "Monsters spawn in the dark, on your own builds. Light every corner of the island."
+  ],
+  "quest.island_tier_2/t2_lights.subtitle": "Main objective",
+  "quest.island_tier_2/t2_lights.title": "Light the Island",
   "quest.island_tier_2/t2_melons.description": [
     "Melon blocks come from the OneBlock in the Survival phase."
   ],
   "quest.island_tier_2/t2_melons.subtitle": "Optional",
   "quest.island_tier_2/t2_melons.title": "Melon Patch",
   "quest.island_tier_2/t2_shield.description": [
-    "One iron ingot and planks. Right-click to block arrows and hits during expeditions."
+    "One iron ingot and planks. Right-click to block arrows and hits during expeditions.",
+    "Iron armour is what lets you stay the full 15 minutes in a harsher realm."
   ],
   "quest.island_tier_2/t2_shield.subtitle": "Main objective",
   "quest.island_tier_2/t2_shield.title": "Raise a Shield",
@@ -270,7 +318,7 @@
   "quest.island_tier_2/t2_zombies.subtitle": "Optional",
   "quest.island_tier_2/t2_zombies.title": "Night Watch",
   "quest.island_tier_3/island_tier_3.description": [
-    "Complete the 4 required quests of this chapter to expand your island border from radius 32 to 40.",
+    "Complete the 5 required quests of this chapter to expand your island border from radius 32 to 40.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
@@ -313,12 +361,14 @@
   "quest.island_tier_3/t3_inferium.title": "Inferium",
   "quest.island_tier_3/t3_inferium_seeds.description": [
     "8 Inferium Essence around wheat seeds. Planted on farmland, they grow more essence by themselves.",
-    "Better seeds and essences need prosperity shards: prosperity ore appears in the OneBlock's Engineering phase (island tier 3, or 512 blocks) and as Nether prosperity ore in the Nether."
+    "Better seeds and essences need prosperity shards: prosperity ore appears in the OneBlock's Engineering phase (island tier 3, or 512 blocks) and as Nether prosperity ore in the Nether.",
+    "Required: from here on, Mystical Agriculture grows essence for you."
   ],
-  "quest.island_tier_3/t3_inferium_seeds.subtitle": "Optional",
+  "quest.island_tier_3/t3_inferium_seeds.subtitle": "Main objective",
   "quest.island_tier_3/t3_inferium_seeds.title": "Inferium Seeds",
   "quest.island_tier_3/t3_nether.description": [
-    "When your island reaches tier 2, the gateway can open to the Nether. Lava, ghasts and fortresses: be careful."
+    "When your island reaches tier 2, the gateway can open to the Nether. Lava, ghasts and fortresses: be careful.",
+    "Wear leaf armour against the heat (Tough As Nails). Water buckets do not work there: it evaporates."
   ],
   "quest.island_tier_3/t3_nether.subtitle": "Main objective",
   "quest.island_tier_3/t3_nether.title": "The Nether",
@@ -333,14 +383,15 @@
   "quest.island_tier_3/t3_quartz.subtitle": "Main objective",
   "quest.island_tier_3/t3_quartz.title": "Nether Quartz",
   "quest.island_tier_4/island_tier_4.description": [
-    "Complete the 5 required quests of this chapter to expand your island border from radius 40 to 48.",
+    "Complete the 6 required quests of this chapter to expand your island border from radius 40 to 48.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
   "quest.island_tier_4/island_tier_4.subtitle": "Border radius 40 -> 48",
   "quest.island_tier_4/island_tier_4.title": "Island Expansion 4",
   "quest.island_tier_4/t4_andesite_alloy.description": [
-    "Andesite + iron or zinc nuggets. Andesite = diorite + cobblestone; diorite = quartz + cobblestone."
+    "Andesite + iron or zinc nuggets. Andesite = diorite + cobblestone; diorite = quartz + cobblestone.",
+    "32 by hand is long: a mechanical mixer makes alloy by itself."
   ],
   "quest.island_tier_4/t4_andesite_alloy.subtitle": "Main objective",
   "quest.island_tier_4/t4_andesite_alloy.title": "Andesite Alloy",
@@ -350,9 +401,10 @@
   "quest.island_tier_4/t4_basin.subtitle": "Optional",
   "quest.island_tier_4/t4_basin.title": "Basin",
   "quest.island_tier_4/t4_brass.description": [
-    "Copper + zinc mixed over a blaze burner (heated mixing)."
+    "Copper + zinc mixed over a blaze burner (heated mixing).",
+    "Required, the masterpiece of this expansion: brass opens the rest of Create. Catch a blaze in an empty blaze burner during a Nether expedition."
   ],
-  "quest.island_tier_4/t4_brass.subtitle": "Optional",
+  "quest.island_tier_4/t4_brass.subtitle": "Main objective",
   "quest.island_tier_4/t4_brass.title": "Brass",
   "quest.island_tier_4/t4_cogs.description": [
     "Cogwheels carry rotation between shafts."
@@ -365,7 +417,8 @@
   "quest.island_tier_4/t4_fan.subtitle": "Optional",
   "quest.island_tier_4/t4_fan.title": "Encased Fan",
   "quest.island_tier_4/t4_mechanism.description": [
-    "Made by sequenced assembly with a deployer, a press and a saw."
+    "Made by sequenced assembly with a deployer, a press and a saw.",
+    "The challenge of this expansion: everything you built here works together."
   ],
   "quest.island_tier_4/t4_mechanism.subtitle": "Optional",
   "quest.island_tier_4/t4_mechanism.title": "Precision Mechanism",
@@ -380,7 +433,8 @@
   "quest.island_tier_4/t4_mixer.subtitle": "Optional",
   "quest.island_tier_4/t4_mixer.title": "Mechanical Mixer",
   "quest.island_tier_4/t4_press.description": [
-    "Presses ingots into plates. Needs an andesite casing (alloy on stripped wood) and an iron block."
+    "Presses ingots into plates. Needs an andesite casing (alloy on stripped wood) and an iron block.",
+    "Then press 16 iron sheets: proof that your rotation line runs."
   ],
   "quest.island_tier_4/t4_press.subtitle": "Main objective",
   "quest.island_tier_4/t4_press.title": "Mechanical Press",
@@ -400,7 +454,7 @@
   "quest.island_tier_4/t4_zinc.subtitle": "Main objective",
   "quest.island_tier_4/t4_zinc.title": "Zinc",
   "quest.island_tier_5/island_tier_5.description": [
-    "Complete the 4 required quests of this chapter to expand your island border from radius 48 to 56.",
+    "Complete the 5 required quests of this chapter to expand your island border from radius 48 to 56.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
@@ -447,9 +501,10 @@
   "quest.island_tier_5/t5_scribe.subtitle": "Optional",
   "quest.island_tier_5/t5_scribe.title": "Scribe's Table",
   "quest.island_tier_5/t5_source_gems.description": [
-    "Made in the imbuement chamber."
+    "Made in the imbuement chamber.",
+    "Required: Source is the fuel of every Ars Nouveau machine."
   ],
-  "quest.island_tier_5/t5_source_gems.subtitle": "Optional",
+  "quest.island_tier_5/t5_source_gems.subtitle": "Main objective",
   "quest.island_tier_5/t5_source_gems.title": "Source Gems",
   "quest.island_tier_5/t5_source_jar.description": [
     "Stores Source for your machines."
@@ -473,7 +528,7 @@
   "quest.island_tier_5/t5_undergarden.subtitle": "Main objective",
   "quest.island_tier_5/t5_undergarden.title": "Under the World",
   "quest.island_tier_6/island_tier_6.description": [
-    "Complete the 6 required quests of this chapter to expand your island border from radius 56 to 64.",
+    "Complete the 7 required quests of this chapter to expand your island border from radius 56 to 64.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
@@ -500,12 +555,14 @@
   "quest.island_tier_6/t6_energized_steel.subtitle": "Optional",
   "quest.island_tier_6/t6_energized_steel.title": "Energized Steel",
   "quest.island_tier_6/t6_energy_cube.description": [
-    "Stores energy for the night."
+    "Stores energy for the night.",
+    "Required: wire your machines to a cube so they run through the night."
   ],
-  "quest.island_tier_6/t6_energy_cube.subtitle": "Optional",
+  "quest.island_tier_6/t6_energy_cube.subtitle": "Main objective",
   "quest.island_tier_6/t6_energy_cube.title": "Energy Cube",
   "quest.island_tier_6/t6_enrichment.description": [
-    "Doubles every ore you process."
+    "Doubles every ore you process.",
+    "Feed it osmium ore: two dusts per ore."
   ],
   "quest.island_tier_6/t6_enrichment.subtitle": "Main objective",
   "quest.island_tier_6/t6_enrichment.title": "Enrichment Chamber",
@@ -546,7 +603,7 @@
   "quest.island_tier_6/t6_uraninite.subtitle": "Optional",
   "quest.island_tier_6/t6_uraninite.title": "Uraninite",
   "quest.island_tier_7/island_tier_7.description": [
-    "Complete the 3 required quests of this chapter to expand your island border from radius 64 to 72.",
+    "Complete the 4 required quests of this chapter to expand your island border from radius 64 to 72.",
     "Optional quests give extra rewards but never block an expansion.",
     "The whole team shares the larger island. Nothing you built is changed."
   ],
@@ -578,9 +635,10 @@
   "quest.island_tier_7/t7_endermen.subtitle": "Main objective",
   "quest.island_tier_7/t7_endermen.title": "Ender Pearls",
   "quest.island_tier_7/t7_netherite.description": [
-    "Four scraps and four gold ingots."
+    "Four scraps and four gold ingots.",
+    "Required: the masterpiece of this expansion."
   ],
-  "quest.island_tier_7/t7_netherite.subtitle": "Optional",
+  "quest.island_tier_7/t7_netherite.subtitle": "Main objective",
   "quest.island_tier_7/t7_netherite.title": "Netherite",
   "quest.island_tier_7/t7_steeleaf.description": [
     "Liveroot (Twilight Forest roots), raw iron and a gold nugget make raw ironwood; smelt it."
@@ -593,7 +651,8 @@
   "quest.island_tier_7/t7_undergarden.subtitle": "Optional",
   "quest.island_tier_7/t7_undergarden.title": "The Undergarden",
   "quest.island_tier_7/t7_wither_skeletons.description": [
-    "They guard Nether fortresses and sometimes drop their skull (Looting helps). The next expansion gives you the three skulls the Wither needs."
+    "They guard Nether fortresses and sometimes drop their skull (Looting helps). The next expansion gives you the three skulls the Wither needs.",
+    "Keep every skull: the Wither needs three."
   ],
   "quest.island_tier_7/t7_wither_skeletons.subtitle": "Main objective",
   "quest.island_tier_7/t7_wither_skeletons.title": "Wither Skeletons",
@@ -615,7 +674,8 @@
   "quest.island_tier_8/t8_archmage.subtitle": "Optional",
   "quest.island_tier_8/t8_archmage.title": "Archmage Spell Book",
   "quest.island_tier_8/t8_beacon.description": [
-    "A nether star, obsidian and glass. Build a pyramid for its powers."
+    "A nether star, obsidian and glass. Build a pyramid for its powers.",
+    "Light it on a pyramid of 9 iron blocks."
   ],
   "quest.island_tier_8/t8_beacon.subtitle": "Main objective",
   "quest.island_tier_8/t8_beacon.title": "Beacon",
@@ -665,6 +725,11 @@
   ],
   "quest.lost_beyond_the_portal/become_trapped.subtitle": "Stranded when the return route collapses",
   "quest.lost_beyond_the_portal/become_trapped.title": "Dimensional Connection Lost",
+  "quest.lost_beyond_the_portal/craft_fragments.description": [
+    "Rift Guardians are not the only source: quartz, amethyst and glowstone dust craft Dimensional Fragments. Keep two in every expedition."
+  ],
+  "quest.lost_beyond_the_portal/craft_fragments.subtitle": "Your own way home",
+  "quest.lost_beyond_the_portal/craft_fragments.title": "Fragments by Hand",
   "quest.lost_beyond_the_portal/escape_rift.description": [
     "Step into the stabilized fracture to return to your island."
   ],
@@ -680,11 +745,21 @@
   ],
   "quest.magic_and_technology/arcane_enchanting.subtitle": "Construct an Enchanting Table",
   "quest.magic_and_technology/arcane_enchanting.title": "Arcane Inscription",
+  "quest.magic_and_technology/brewing.description": [
+    "Blaze rods make a brewing stand; Nether wart is the base of every potion. Fire resistance saves lives in the Nether."
+  ],
+  "quest.magic_and_technology/brewing.subtitle": "A brewing stand and Nether wart",
+  "quest.magic_and_technology/brewing.title": "First Potions",
   "quest.magic_and_technology/expedition_kit.description": [
     "Keep Dimensional Fragments with you so a fracture never holds you for long."
   ],
   "quest.magic_and_technology/expedition_kit.subtitle": "Stockpile Dimensional Fragments",
   "quest.magic_and_technology/expedition_kit.title": "Expedition Preparation Kit",
+  "quest.magic_and_technology/explorer_gear.description": [
+    "Diamond armour and golden carrots: the kit that keeps you alive for 15 minutes in the Undergarden or the End."
+  ],
+  "quest.magic_and_technology/explorer_gear.subtitle": "Ready for harsher realms",
+  "quest.magic_and_technology/explorer_gear.title": "Explorer's Gear",
   "quest.the_dimensional_gateway/enter_gateway.description": [
     "Step into the gateway while it is open. You have 15 minutes from your entry; a Return Gateway waits where you arrive.",
     "Young islands go to gentle realms; harsher ones open as your island expands (see /dc status)."
@@ -696,6 +771,17 @@
   ],
   "quest.the_dimensional_gateway/interdimensional_spoils.subtitle": "Harvest resources from beyond the rift",
   "quest.the_dimensional_gateway/interdimensional_spoils.title": "Interdimensional Spoils",
+  "quest.the_dimensional_gateway/pack_for_the_trip.description": [
+    "Food, light and a shield: carry them before every expedition. Fifteen minutes go fast far from home."
+  ],
+  "quest.the_dimensional_gateway/pack_for_the_trip.subtitle": "Never enter the gateway empty-handed",
+  "quest.the_dimensional_gateway/pack_for_the_trip.title": "Pack for the Trip",
+  "quest.the_dimensional_gateway/read_the_panel.description": [
+    "The panel on screen shows the day of the cycle, where your gateway leads, the time left on your return portal,",
+    "the threat of the day (the monsters that come at night) and your OneBlock reserve. Tick this quest once you have read it."
+  ],
+  "quest.the_dimensional_gateway/read_the_panel.subtitle": "Everything the screen tells you",
+  "quest.the_dimensional_gateway/read_the_panel.title": "Read the Panel",
   "quest.the_dimensional_gateway/return_safely.description": [
     "Use your Return Gateway before your 15 minutes run out. The panel shows \"Return portal:\" during an expedition."
   ],
@@ -712,6 +798,23 @@
   ],
   "quest.the_void/awakening.subtitle": "Your home above the abyss",
   "quest.the_void/awakening.title": "Awakening in the Void",
+  "quest.the_void/first_night.description": [
+    "At night monsters spawn on every dark block of your island. Torches keep them away."
+  ],
+  "quest.the_void/first_night.subtitle": "Monsters spawn on dark blocks",
+  "quest.the_void/first_night.title": "Light Against the Dark",
+  "quest.the_void/island_border.description": [
+    "Your island stops at a border (radius 16 at first). Every \"Island Expansion\" chapter you finish pushes it 8 blocks further.",
+    "Build a real floor around the OneBlock: the void below never forgives."
+  ],
+  "quest.the_void/island_border.subtitle": "Your island has a border",
+  "quest.the_void/island_border.title": "Edge of the World",
+  "quest.the_void/oneblock_reserve.description": [
+    "When your inventory is full, the OneBlock keeps its drops in a 6-slot reserve (shown on screen as \"Reserve: x/6\").",
+    "Sneak + right-click the OneBlock with an empty hand to take them back. Tick this quest once you know."
+  ],
+  "quest.the_void/oneblock_reserve.subtitle": "Nothing is lost when your bag is full",
+  "quest.the_void/oneblock_reserve.title": "The OneBlock Reserve",
   "quest.the_void/timber_and_stone.description": [
     "Mine the OneBlock for your first logs and cobblestone."
   ],
@@ -734,106 +837,18 @@
   "task.dimensional_mastery/master_of_chaos.0.title": "Master of Dimensional Chaos",
   "task.dimensional_mastery/slay_dragon.0.title": "Conqueror of the End",
   "task.island_tier_1/island_tier_1.0.title": "Expand the island",
-  "task.island_tier_1/t1_bread.0.title": "Daily Bread",
-  "task.island_tier_1/t1_bricks.0.title": "Clay into Brick",
-  "task.island_tier_1/t1_bridge.0.title": "Bridge to the Gateway",
-  "task.island_tier_1/t1_coal.0.title": "Fuel",
-  "task.island_tier_1/t1_copper.0.title": "First Metal",
   "task.island_tier_1/t1_enter_gateway.0.title": "Through the Gateway",
-  "task.island_tier_1/t1_first_logs.0.title": "First Logs",
-  "task.island_tier_1/t1_furnace.0.title": "Fire in the Void",
-  "task.island_tier_1/t1_moss.0.title": "Green Ground",
   "task.island_tier_1/t1_return_home.0.title": "Home in Time",
-  "task.island_tier_1/t1_saplings.0.title": "A Second Tree",
-  "task.island_tier_1/t1_stone_pick.0.title": "Stone Tools",
   "task.island_tier_2/island_tier_2.0.title": "Expand the island",
-  "task.island_tier_2/t2_bed.0.title": "A Real Bed",
-  "task.island_tier_2/t2_bucket.0.title": "A Bucket",
-  "task.island_tier_2/t2_composter.0.title": "Compost",
-  "task.island_tier_2/t2_iron.0.title": "Iron Supply",
-  "task.island_tier_2/t2_iron_pick.0.title": "Iron Pickaxe",
-  "task.island_tier_2/t2_melons.0.title": "Melon Patch",
-  "task.island_tier_2/t2_shield.0.title": "Raise a Shield",
   "task.island_tier_2/t2_skeletons.0.title": "Archers",
   "task.island_tier_2/t2_spiders.0.title": "String",
-  "task.island_tier_2/t2_sponge.0.title": "Dry Sponge",
-  "task.island_tier_2/t2_twilight.0.title": "Into the Twilight",
   "task.island_tier_2/t2_zombies.0.title": "Night Watch",
   "task.island_tier_3/island_tier_3.0.title": "Expand the island",
-  "task.island_tier_3/t3_blazes.0.title": "Blaze Rods",
-  "task.island_tier_3/t3_books.0.title": "Books",
-  "task.island_tier_3/t3_diamonds.0.title": "Diamonds",
-  "task.island_tier_3/t3_enchanting.0.title": "Enchanting Table",
-  "task.island_tier_3/t3_farmland.0.title": "Enriched Soil",
-  "task.island_tier_3/t3_gold.0.title": "Gold",
-  "task.island_tier_3/t3_inferium.0.title": "Inferium",
-  "task.island_tier_3/t3_inferium_seeds.0.title": "Inferium Seeds",
-  "task.island_tier_3/t3_nether.0.title": "The Nether",
-  "task.island_tier_3/t3_obsidian.0.title": "Obsidian",
-  "task.island_tier_3/t3_quartz.0.title": "Nether Quartz",
   "task.island_tier_4/island_tier_4.0.title": "Expand the island",
-  "task.island_tier_4/t4_andesite_alloy.0.title": "Andesite Alloy",
-  "task.island_tier_4/t4_basin.0.title": "Basin",
-  "task.island_tier_4/t4_brass.0.title": "Brass",
-  "task.island_tier_4/t4_cogs.0.title": "Cogwheels",
-  "task.island_tier_4/t4_fan.0.title": "Encased Fan",
-  "task.island_tier_4/t4_mechanism.0.title": "Precision Mechanism",
-  "task.island_tier_4/t4_millstone.0.title": "Millstone",
-  "task.island_tier_4/t4_mixer.0.title": "Mechanical Mixer",
-  "task.island_tier_4/t4_press.0.title": "Mechanical Press",
-  "task.island_tier_4/t4_shafts.0.title": "Shafts",
-  "task.island_tier_4/t4_water_wheel.0.title": "Water Wheel",
-  "task.island_tier_4/t4_zinc.0.title": "Zinc",
   "task.island_tier_5/island_tier_5.0.title": "Expand the island",
-  "task.island_tier_5/t5_aether.0.title": "The Aether",
-  "task.island_tier_5/t5_apparatus.0.title": "Enchanting Apparatus",
-  "task.island_tier_5/t5_arcane_essence.0.title": "Resonance Charm",
-  "task.island_tier_5/t5_archwood.0.title": "Archwood",
-  "task.island_tier_5/t5_imbuement.0.title": "Imbuement Chamber",
-  "task.island_tier_5/t5_inscription.0.title": "Inscription Table",
-  "task.island_tier_5/t5_lapis.0.title": "Lapis",
-  "task.island_tier_5/t5_scribe.0.title": "Scribe's Table",
-  "task.island_tier_5/t5_source_gems.0.title": "Source Gems",
-  "task.island_tier_5/t5_source_jar.0.title": "Source Jar",
-  "task.island_tier_5/t5_sourcelink.0.title": "Agronomic Sourcelink",
-  "task.island_tier_5/t5_spell_book.0.title": "Novice Spell Book",
-  "task.island_tier_5/t5_undergarden.0.title": "Under the World",
   "task.island_tier_6/island_tier_6.0.title": "Expand the island",
-  "task.island_tier_6/t6_cables.0.title": "Universal Cables",
-  "task.island_tier_6/t6_circuits.0.title": "Basic Circuits",
-  "task.island_tier_6/t6_crusher.0.title": "Crusher",
-  "task.island_tier_6/t6_energized_steel.0.title": "Energized Steel",
-  "task.island_tier_6/t6_energy_cube.0.title": "Energy Cube",
-  "task.island_tier_6/t6_enrichment.0.title": "Enrichment Chamber",
-  "task.island_tier_6/t6_furnator.0.title": "Furnator",
-  "task.island_tier_6/t6_infuser.0.title": "Metallurgic Infuser",
-  "task.island_tier_6/t6_mining.0.title": "The Mining World",
-  "task.island_tier_6/t6_orb.0.title": "Energizing Orb",
-  "task.island_tier_6/t6_osmium.0.title": "Osmium",
-  "task.island_tier_6/t6_steel.0.title": "Steel",
-  "task.island_tier_6/t6_uraninite.0.title": "Uraninite",
   "task.island_tier_7/island_tier_7.0.title": "Expand the island",
-  "task.island_tier_7/t7_cloggrum.0.title": "Cloggrum",
-  "task.island_tier_7/t7_debris.0.title": "Ancient Debris",
-  "task.island_tier_7/t7_end.0.title": "The End",
-  "task.island_tier_7/t7_end_stone.0.title": "End Stone",
-  "task.island_tier_7/t7_endermen.0.title": "Ender Pearls",
-  "task.island_tier_7/t7_netherite.0.title": "Netherite",
-  "task.island_tier_7/t7_steeleaf.0.title": "Ironwood",
-  "task.island_tier_7/t7_undergarden.0.title": "The Undergarden",
-  "task.island_tier_7/t7_wither_skeletons.0.title": "Wither Skeletons",
-  "task.island_tier_7/t7_zanite.0.title": "Zanite",
   "task.island_tier_8/island_tier_8.0.title": "Expand the island",
-  "task.island_tier_8/t8_archmage.0.title": "Archmage Spell Book",
-  "task.island_tier_8/t8_beacon.0.title": "Beacon",
-  "task.island_tier_8/t8_digital_miner.0.title": "Digital Miner",
-  "task.island_tier_8/t8_elite_circuit.0.title": "Elite Circuit",
-  "task.island_tier_8/t8_naga.0.title": "The Naga",
-  "task.island_tier_8/t8_nether_star.0.title": "Nether Star",
-  "task.island_tier_8/t8_nitro.0.title": "Nitro Crystals",
-  "task.island_tier_8/t8_refined_obsidian.0.title": "Refined Obsidian",
-  "task.island_tier_8/t8_supremium.0.title": "Supremium",
-  "task.island_tier_8/t8_wither.0.title": "The Wither",
   "task.lost_beyond_the_portal/become_trapped.0.title": "Dimensional Connection Lost",
   "task.lost_beyond_the_portal/escape_rift.0.title": "Escape Beyond the Rift",
   "task.lost_beyond_the_portal/repair_fracture.0.title": "Stabilize the Dimensional Fracture",
@@ -841,9 +856,11 @@
   "task.magic_and_technology/expedition_kit.0.title": "Expedition Preparation Kit",
   "task.the_dimensional_gateway/enter_gateway.0.title": "Step Through the Threshold",
   "task.the_dimensional_gateway/interdimensional_spoils.0.title": "Interdimensional Spoils",
+  "task.the_dimensional_gateway/read_the_panel.0.title": "Read the Panel",
   "task.the_dimensional_gateway/return_safely.0.title": "Beat the Clock",
   "task.the_void/attune_compass.0.title": "Attune the Rift Compass",
   "task.the_void/awakening.0.title": "Awakening in the Void",
+  "task.the_void/oneblock_reserve.0.title": "The OneBlock Reserve",
   "task.the_void/timber_and_stone.0.title": "First Timber & Stone",
   "task.the_void/timber_and_stone.1.title": "First Timber & Stone",
   "task.the_void/void_farming.0.title": "Sustenance in the Void"
